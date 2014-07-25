@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+
+
+
+    <RelativeLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textListTopElem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text=""
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textListElem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textListTopElem"
+            android:layout_below="@+id/textListTopElem"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:text=""
+            android:textColor="@color/MenuLightGrey"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/img_companie"
+            android:layout_width="135dp"
+            android:contentDescription="@string/description"
+            android:layout_height="53dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@color/white" />
+
+        <TextView
+            android:id="@+id/tip_asig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textListTopElem"
+            android:layout_toLeftOf="@+id/iddata"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/img_companie"
+            android:text="te"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iddata"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tip_asig"
+            android:layout_alignBottom="@+id/tip_asig"
+            android:layout_alignParentRight="true"
+            android:paddingRight="3dp"
+            android:gravity="center"
+            android:text="@string/i127"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pret_asig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tip_asig"
+            android:layout_below="@+id/textListElem"
+            android:layout_toLeftOf="@+id/data_inceput"
+            android:gravity="center"
+            android:text="te"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/data_inceput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iddata"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textListElem"
+            android:gravity="center"
+            android:text="@string/i139"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C9C9C9" />
+
+</LinearLayout>

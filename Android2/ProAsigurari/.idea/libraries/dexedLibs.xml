@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/annotations-3675c17b9c23fb021cf4f5790ef6876b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/facebooksdk-59a96fbea9121bd153f99127598fa58f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gcm-e0d3e72cdf213f95fd3e7c93ce0b8c63.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-a865b76566e31d80d75e5bd7e04f6f13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/libGoogleAnalyticsV2-ff9871a6eb88d6f0d069e3014726f409.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

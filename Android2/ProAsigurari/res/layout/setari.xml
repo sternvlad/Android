@@ -1,0 +1,47 @@
+
+                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/radio_group1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="left"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/checkedromana"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:text="@string/i222"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="13sp" />
+
+                        <RadioButton
+                            android:id="@+id/checkedmaghiara"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:text="@string/i223"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="13sp" />
+
+                        <RadioButton
+                            android:id="@+id/checkedengleza"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:text="@string/i224"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="13sp" />
+                    </RadioGroup>

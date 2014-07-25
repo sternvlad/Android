@@ -1,0 +1,239 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" 
+	android:layout_height="match_parent" >
+	<LinearLayout
+        android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		android:layout_alignParentTop="true"
+	    android:layout_alignParentLeft="true"
+	    android:orientation="horizontal"
+		android:weightSum="1.0"
+		android:background="@color/MenuLightGrey"
+		android:baselineAligned="false" >
+	    <RelativeLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight=".80" >
+    
+    <RelativeLayout
+	    android:layout_width="fill_parent" 
+	    android:layout_height="48dp"	    
+	    android:background="@drawable/top_bar"
+	    android:orientation="horizontal"
+	    android:id="@+id/main_top2"
+	    android:layout_gravity="top"
+	    android:layout_alignParentTop="true">
+		
+
+		
+
+		<Button
+		    android:id="@+id/button_sinc"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:layout_marginLeft="3dp"
+		    android:background="@drawable/sincronizare" />
+
+		
+
+		<TextView
+		    android:id="@+id/titlu2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/button_sinc"
+		    android:layout_alignBottom="@+id/button_sinc"
+		    android:layout_centerInParent="true"
+		    android:background="#07000000"
+		    android:gravity="center"
+		    android:text=""
+		    android:textColor="#FFFFFF"
+		    android:textSize="20sp"
+		    android:textStyle="bold" />
+		
+		</RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/datele_mele"
+	            android:background="@color/MenuDarkGrey"
+	            android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:drawableLeft="@drawable/datele_mele_tab"
+		        android:textColor="@color/white"
+		        android:layout_below="@+id/incheie_asigurare"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="5dp"
+		        android:layout_marginRight="5dp"
+		        android:padding="5dp"
+		        android:text="Datele mele" />
+	        
+	        <Button
+	            android:id="@+id/alertele_mele"
+	            android:background="@color/MenuDarkGrey"
+	            android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:drawableLeft="@drawable/alerte_tab"
+		        android:textColor="@color/white"
+		        android:layout_below="@+id/datele_mele"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="5dp"
+		        android:layout_marginRight="5dp"
+		        android:padding="5dp"
+		        android:text="Alertele mele" />
+	        
+	        <Button
+	            android:id="@+id/alte_informatii"
+	            android:background="@color/MenuDarkGrey"
+	            android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:drawableLeft="@drawable/altele_tab"
+		        android:textColor="@color/white"
+		        android:layout_below="@+id/alertele_mele"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="5dp"
+		        android:layout_marginRight="5dp"
+		        android:padding="5dp"
+		        android:text="Alte informatii" />
+
+	        <Button
+	            android:id="@+id/incheie_asigurare"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/datele_mele"
+	            android:layout_alignRight="@+id/datele_mele"
+	            android:layout_below="@+id/main_top2"
+	            android:layout_marginTop="10dp"
+	            android:background="@color/MenuDarkGrey"
+	            android:drawableLeft="@drawable/incheie_asigurare_tab"
+	            android:padding="5dp"
+	            android:text="Asigurari"
+	            android:textColor="@color/white" />
+
+	    </RelativeLayout>
+
+	    <LinearLayout
+	        android:layout_width="0dp" 
+	        android:layout_height="match_parent" 
+	        android:layout_weight=".20"
+	        android:background="#000000" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_alignParentTop="true"
+	    android:layout_alignParentLeft="true"
+	    android:background="@drawable/top_bar" >
+        <RelativeLayout
+	        android:id="@+id/header"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:background="@drawable/top_bar" >
+	        <ImageView 
+	            android:id="@+id/menuButton"
+	            android:layout_alignParentTop="true"
+	            android:layout_alignParentLeft="true"
+	            android:layout_width="40dp"
+	            android:layout_height="40dp"
+	            android:layout_marginTop="8dp"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginBottom="2dp"
+	            android:src="@drawable/menu"
+	            android:contentDescription="@string/app_name" />
+	        <TextView
+	            android:id="@+id/headerTitle"
+	            android:layout_alignParentTop="true"
+	            android:layout_toRightOf="@+id/menuButton"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="12dp"
+	            android:layout_marginLeft="10dp"
+	            android:textColor="#FFFFFFFF"
+		        android:textSize="20dp"
+		        android:gravity="left" />
+
+	        <TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true"
+		    android:background="#07000000"
+		    android:gravity="center"
+		    android:text="Datele mele"
+		    android:textColor="#FFFFFF"
+		    android:textSize="20sp"
+		    android:textStyle="bold" />
+
+	        
+
+	        <Button
+	            android:id="@+id/button_notificare"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentTop="true"
+	            android:layout_marginTop="5dp"
+	            android:visibility="gone"
+	            android:layout_marginRight="5dp"
+	            android:background="@drawable/notificari_icon" />
+
+	    </RelativeLayout>
+	    <TabHost
+ 			android:id="@android:id/tabhost"
+ 			android:layout_width="match_parent"
+ 			android:layout_height="match_parent"
+ 			android:layout_alignParentLeft="true"
+ 			android:layout_below="@+id/header"
+ 			android:background="@color/white">
+			<TabWidget
+				android:id="@android:id/tabs"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:visibility="gone" />
+			<FrameLayout
+			    android:id="@android:id/tabcontent"
+				android:layout_width="match_parent"
+				android:layout_height="fill_parent" />
+		</TabHost>
+		<RelativeLayout
+	        android:id="@+id/contentOverlay"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/header"
+	        android:visibility="gone" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:visibility="gone"
+                android:id="@+id/linear_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@android:id/tabs"
+                android:layout_centerHorizontal="true" >
+
+                <RelativeLayout
+                    android:id="@+id/badge_image"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/badge" >
+
+                <TextView
+                    android:id="@+id/txtCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="19"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+                </RelativeLayout>
+            </RelativeLayout>
+</RelativeLayout>

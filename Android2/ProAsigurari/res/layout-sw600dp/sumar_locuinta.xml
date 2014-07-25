@@ -1,0 +1,414 @@
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content" >
+
+                  <View
+                        android:id="@+id/view1"
+				        android:layout_width="match_parent"
+				        android:layout_height="2dp"
+				        android:layout_marginTop="0dp"
+				        android:background="@color/albastru_locuinta" />
+            
+
+
+            <RelativeLayout
+          android:id="@+id/asigurare"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/description"
+                android:src="@drawable/asig_locuinte" />
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/imageView1"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_header2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/i792"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/text_header3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="@string/i793"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="23sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_header1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lay1"
+                android:layout_alignLeft="@+id/lay1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="@string/i791"
+                android:textColor="@color/albastru_locuinta"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        
+               <View
+                    android:id="@+id/view2"
+			        android:layout_width="match_parent"
+			        android:layout_height="2dp"
+			        android:layout_marginTop="0dp"
+			        android:background="@color/albastru_locuinta" />
+            
+            <View
+       			android:layout_width="match_parent"
+        		android:layout_height="1dp"
+        		android:background="#C9C9C9" />
+
+            <TextView
+                android:id="@+id/tv_asig_loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/ColorTitlu"
+                android:text="@string/i18"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/image_icon"
+                    android:layout_width="100dp"
+                    android:contentDescription="@string/description"
+                    android:layout_height="100dp"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/icon_foto_casa" />
+
+              
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="120dp" >
+
+                <ImageView
+                    android:id="@+id/image_arrow_locuinta2"
+                    android:layout_width="wrap_content"
+                    android:contentDescription="@string/description"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/arrow_locuinta" />
+                
+                <TextView
+                    android:id="@+id/suma_asig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:maxLines="1"
+                    android:text="@string/description" />
+                
+                
+                </LinearLayout>
+                
+                
+                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="120dp" >
+                
+                <ImageView
+                    android:id="@+id/image_arrow_locuinta1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+					android:layout_marginTop="3dp"
+					android:contentDescription="@string/description"
+                    android:src="@drawable/arrow_locuinta" />
+
+                <TextView
+                    android:id="@+id/tv_suprafata_structura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:maxLines="1"
+                   android:text="@string/description" />
+                
+				</LinearLayout>
+				
+                 <LinearLayout
+                      android:id="@+id/nr_pers_calatorie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="120dp" >
+                
+                <ImageView
+                    android:id="@+id/image_arrow_calatorie1"
+                    android:layout_width="wrap_content"
+                    android:contentDescription="@string/description"
+                    android:layout_height="wrap_content"
+					android:layout_marginTop="3dp"
+                    android:src="@drawable/arrow_calatorie" />
+
+                <TextView
+                    android:id="@+id/tv_numar_persoane"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:maxLines="1"
+                    android:text="@string/description" />
+                
+				</LinearLayout>
+                 
+
+            </RelativeLayout>
+            
+             <View
+       			android:layout_width="match_parent"
+        		android:layout_height="1dp"
+        		android:background="#C9C9C9" />
+            
+            <TextView
+                android:id="@+id/nume_asigurat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/description"
+                android:textSize="30sp"
+                android:textColor="@color/ColorTitlu"
+                android:textStyle="bold"/>
+            
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:paddingLeft="20dp"
+                    android:contentDescription="@string/description"
+                    android:src="@drawable/icon_foto_person" />
+                
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="120dp" >
+
+                <ImageView
+                    android:id="@+id/image_arrow_locuinta3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:contentDescription="@string/description"
+                    android:src="@drawable/arrow_locuinta" />
+
+                <TextView
+                    android:id="@+id/cnp_asigurat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:maxLines="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/description" />
+                
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="120dp" >
+                
+                <ImageView
+                    android:id="@+id/image_arrow_locuinta4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:contentDescription="@string/description"
+                    android:src="@drawable/arrow_locuinta" />
+
+                <TextView
+                    android:id="@+id/judloc_asigurat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:maxLines="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/description" />
+
+                
+                
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/serie_calatorie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="70dp"
+                    android:visibility="gone"
+                    android:layout_marginLeft="120dp" >
+                
+                <ImageView
+                    android:id="@+id/image_arrow_calatorie2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/description"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/arrow_calatorie" />
+
+                <TextView
+                    android:id="@+id/text_serie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:maxLines="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/description" />
+
+                
+                
+                </LinearLayout>
+
+            </RelativeLayout>
+            
+             <View
+       			android:layout_width="match_parent"
+        		android:layout_height="1dp"
+        		android:background="#C9C9C9" />
+            
+             <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+             
+            <TextView
+                android:id="@+id/pret_asigurare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/description"
+                android:textSize="30sp"
+                android:textColor="@color/ColorTitlu"
+                android:textStyle="bold"/>
+
+            
+            </RelativeLayout>
+            
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+			<ImageView
+            	android:id="@+id/image_firma_asig"
+            	android:layout_width="220dp"
+            	android:layout_height="84dp"
+            	android:contentDescription="@string/description"
+            	android:layout_marginTop="10dp"
+            	android:layout_marginLeft="10dp"
+            	android:layout_centerVertical="true"
+            	android:src="@drawable/omniasig" />
+
+				<LinearLayout
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentRight="true"
+				    android:layout_alignParentTop="true"
+				    android:layout_marginRight="14dp"
+				    android:orientation="vertical" >
+
+				    <Button
+				        android:id="@+id/btn_conditii_pdf"
+				        android:layout_width="260dp"
+				        android:layout_height="82dp"
+				        android:background="@drawable/conditii_asigurare_pdf"
+				        android:paddingLeft="45dp"
+				        android:text="@string/i169"
+				        android:textColor="@color/ColorTitlu"
+				        android:textSize="25sp" />
+				    
+				    <Button
+				        android:id="@+id/btn_conditii_sumar"
+				        android:layout_width="260dp"
+				        android:layout_height="82dp"
+				        android:background="@drawable/conditii_asigurare_sumar"
+				        android:paddingLeft="45dp"
+				        android:layout_marginTop="2dp"
+				        android:text="@string/i170"
+				        android:textColor="@color/ColorTitlu"
+				        android:textSize="25sp" />
+				</LinearLayout>
+
+            </RelativeLayout>
+            
+			<View
+       			android:layout_width="match_parent"
+        		android:layout_height="1dp"
+        		android:layout_marginTop="10dp"
+        		android:background="#C9C9C9" />
+			
+			<Button
+		        android:id="@+id/btn_continua"
+		        android:layout_width="300dp"
+		        android:layout_gravity="center"
+		        android:layout_height="90dp"
+		        android:background="@drawable/calculeaza_locuinta"
+		        android:text="@string/i17" 
+		        android:textStyle="bold"
+		        android:layout_marginTop="15dp"
+		        android:paddingLeft="40dp"
+		        android:textSize="30sp"/>
+        </LinearLayout>
+    </ScrollView>

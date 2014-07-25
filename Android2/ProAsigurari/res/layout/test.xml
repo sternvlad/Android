@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight=".80" >
+    
+    <RelativeLayout
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"	    
+	    android:background="@drawable/top_bar"
+	    android:orientation="horizontal"
+	    android:id="@+id/main_top2"
+	    android:layout_gravity="top"
+	    android:layout_alignParentTop="true">
+		
+
+		
+
+		<Button
+		    android:id="@+id/button_sinc"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerVertical="true"
+		    android:layout_marginLeft="3dp"
+		    android:background="@drawable/sincronizare" />
+
+		
+
+		<TextView
+		    android:id="@+id/titlu2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/button_sinc"
+		    android:layout_alignBottom="@+id/button_sinc"
+		    android:layout_centerInParent="true"
+		    android:background="#07000000"
+		    android:gravity="center"
+		    android:text="Meniu"
+		    android:textColor="#FFFFFF"
+		    android:textSize="20sp"
+		    android:textStyle="bold" />
+		
+		</RelativeLayout>
+	        
+	        <Button
+	            android:id="@+id/datele_mele"
+	            android:background="@color/MenuDarkGrey"
+	            android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:drawableLeft="@drawable/datele_mele_tab"
+		        android:textColor="@color/white"
+		        android:layout_below="@+id/incheie_asigurare"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="5dp"
+		        android:layout_marginRight="5dp"
+		        android:padding="5dp"
+		        android:text="Datele mele" />
+	        
+	        <Button
+	            android:id="@+id/alertele_mele"
+	            android:background="@color/MenuDarkGrey"
+	            android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:drawableLeft="@drawable/alerte_tab"
+		        android:textColor="@color/white"
+		        android:layout_below="@+id/datele_mele"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="5dp"
+		        android:layout_marginRight="5dp"
+		        android:padding="5dp"
+		        android:text="Alertele mele" />
+	        
+	        <Button
+	            android:id="@+id/alte_informatii"
+	            android:background="@color/MenuDarkGrey"
+	            android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:drawableLeft="@drawable/altele_tab"
+		        android:textColor="@color/white"
+		        android:layout_below="@+id/alertele_mele"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="5dp"
+		        android:layout_marginRight="5dp"
+		        android:padding="5dp"
+		        android:text="Alte informatii" />
+
+	        <Button
+	            android:id="@+id/incheie_asigurare"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/datele_mele"
+	            android:layout_alignRight="@+id/datele_mele"
+	            android:layout_below="@+id/main_top2"
+	            android:layout_marginTop="10dp"
+	            android:background="@color/MenuDarkGrey"
+	            android:drawableLeft="@drawable/incheie_asigurare_tab"
+	            android:padding="5dp"
+	            android:text="Asigurari"
+	            android:textColor="@color/white" />
+
+	    </RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:background="@color/orange"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_tip_asig"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_suma_asig"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content" >
+        
+        <ImageView
+           	android:id="@+id/img_companie"
+           	android:layout_width="200dp"
+           	android:layout_height="84dp"
+           	android:contentDescription="@string/description"
+           	android:layout_marginLeft="10dp"
+           	android:src="@color/white" />
+
+        <ImageView
+            android:id="@+id/linear"
+            android:layout_width="166dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/description"
+            android:background="@drawable/adauga_in_cos"
+            android:layout_marginRight="10dp"
+            android:clickable="false"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:id="@+id/pret_loc"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+     
+
+        <TextView
+            android:id="@+id/tv_pret_taiat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/linear"
+            android:layout_marginTop="5dp"
+            android:text="123.23"
+            android:layout_centerHorizontal="true"
+            android:textSize="27sp"/>
+        
+        <View
+            android:id="@+id/view_pret_taiat"
+            android:layout_width="130dp"
+            android:layout_height="4dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/linear"
+            android:layout_marginTop="19dp"
+            android:background="#FF1900"/>
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/i140"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFransiza"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:gravity="center"
+            android:paddingTop="0dp"
+            android:text="@string/i141"
+            android:textColor="#259c5a"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:background="#C9C9C9" />
+
+        <ImageView
+            android:id="@+id/checkedSAbagaje"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:contentDescription="@string/description"
+            android:layout_alignBottom="@+id/tvFransiza"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/icon_x" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:text="@string/i142"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="70dp"
+            android:layout_toLeftOf="@+id/textView4"
+            android:text="@string/i143"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/checkedSaelectronice"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignTop="@+id/tvFransiza"
+            android:layout_marginRight="60dp"
+            android:contentDescription="@string/description"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/icon_x" />
+
+        <ImageView
+            android:id="@+id/checkedAcoperiresport"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:contentDescription="@string/description"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tvFransiza"
+            android:layout_marginRight="105dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/icon_x" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvFransiza"
+            android:layout_marginLeft="22dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="@string/i144"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

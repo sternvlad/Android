@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:background="@color/orange"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_tip_asig"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:text="COMPLEX"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_suma_asig"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:text="50.000 - eur"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:background="@drawable/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_companie"
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/omniasig" />
+
+        <ImageView
+            android:id="@+id/linear"
+            android:layout_width="83dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/adauga_in_cos"
+            android:clickable="false"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:text="Adauga in cos" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_toLeftOf="@+id/relativeLayout3"
+        android:layout_toRightOf="@+id/linearLayout2"
+        android:background="@drawable/layout2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pret_intreg"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/i46"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pret_loc"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="12.50 lei"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/relativeLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:background="@drawable/layout1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pret_client"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/GriOpac"
+            android:text="@string/i55"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pret_loc_client"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/GriOpac"
+            android:text="12.50 lei"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="@string/i140"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="@string/i144"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFransiza"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text="@string/i141"
+            android:textColor="#259c5a"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/checkedSAbagaje"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignBottom="@+id/tvFransiza"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/icon_x" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="3dp"
+            android:text="@string/i142"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="19dp"
+            android:layout_toLeftOf="@+id/textView4"
+            android:text="@string/i143"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/checkedSaelectronice"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignTop="@+id/tvFransiza"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/icon_x" />
+
+        <ImageView
+            android:id="@+id/checkedAcoperiresport"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tvFransiza"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/icon_x" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/checkedSAbagaje"
+            android:layout_alignParentLeft="true"
+            android:background="#C9C9C9" />
+
+    </RelativeLayout>
+    
+    </RelativeLayout>

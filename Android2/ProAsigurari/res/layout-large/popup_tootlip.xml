@@ -1,0 +1,48 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupa_tool"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tooltip1" >
+
+   <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp" >
+    
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tooltip_ok" />
+    </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/linearLayout1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:paddingTop="420dp"
+       android:paddingRight="10dp" >
+
+       <Button
+           android:id="@+id/button_inchide"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/tooltip_inchide" />
+
+       <Button
+           android:id="@+id/button_continua"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/tooltip_continua" />
+   </LinearLayout>
+
+</RelativeLayout>

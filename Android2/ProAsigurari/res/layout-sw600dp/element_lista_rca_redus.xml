@@ -1,0 +1,103 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textListTopElem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text=""
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textListElem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textListTopElem"
+            android:layout_below="@+id/textListTopElem"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:text=""
+            android:textColor="@color/MenuLightGrey"
+            android:textSize="12sp" />
+
+           	    <TextView
+           	        android:id="@+id/clasa_bm"
+           	        android:layout_width="wrap_content"
+           	        android:layout_height="wrap_content"
+           	        android:layout_alignRight="@+id/img_companie"
+           	        android:layout_below="@+id/img_companie"
+           	        android:layout_toRightOf="@+id/textListElem"
+           	        android:gravity="center"
+           	        android:layout_marginTop="10dp"
+           	        android:text="Clasa B/M : B0"
+           	        android:textColor="@color/MenuDarkGrey"
+           	        android:textSize="20sp" />
+           	        
+<!--            	    <View -->
+<!-- 			        android:layout_width="match_parent" -->
+<!-- 			        android:layout_height="1dp" -->
+<!-- 			        android:layout_below="@+id/img_companie" -->
+<!-- 			        android:layout_marginTop="2dp" -->
+<!-- 			        android:background="#C9C9C9" /> -->
+
+           	    <ImageView
+           	        android:id="@+id/linear"
+           	        android:layout_width="166dp"
+           	        android:layout_height="64dp"
+           	        android:layout_alignParentRight="true"
+           	        android:layout_below="@+id/textListElem"
+           	        android:background="@drawable/adauga_in_cos"
+           	        android:clickable="false"
+           	        android:contentDescription="@string/description"
+           	        android:orientation="horizontal"
+           	        android:paddingLeft="25dp" />
+
+           	    <ImageView
+           	        android:id="@+id/img_companie"
+           	        android:layout_width="200dp"
+           	        android:layout_height="76dp"
+           	        android:layout_alignTop="@+id/textListTopElem"
+           	        android:layout_toRightOf="@+id/textListElem"
+           	        android:contentDescription="@string/description"
+           	        android:src="@drawable/omniasig" />
+
+           	    <TextView
+           	        android:id="@+id/pret_rca"
+           	        android:layout_width="200dp"
+           	        android:layout_height="wrap_content"
+           	        android:layout_alignTop="@+id/textListElem"
+           	        android:layout_centerHorizontal="true"
+           	        android:gravity="center"
+           	        android:text="1000.00 lei"
+           	        android:textSize="25sp" />
+
+           	    <TextView
+           	        android:id="@+id/pret_redus"
+           	        android:layout_width="200dp"
+           	        android:layout_height="wrap_content"
+           	        android:layout_alignBottom="@+id/linear"
+           	        android:layout_alignLeft="@+id/pret_rca"
+           	        android:gravity="center"
+           	        android:textColor="@color/rosu_ter"
+           	        android:text="1000.00 lei"
+           	        android:textSize="27sp"
+           	        android:textStyle="bold" />
+
+           	    <View
+           	        android:id="@+id/view_pret_taiat"
+           	        android:layout_width="150dp"
+           	        android:layout_height="2dp"
+	      	        android:layout_below="@+id/textListElem"
+           	        android:layout_centerHorizontal="true"
+           	        android:background="#FF1900" />
+
+</RelativeLayout>

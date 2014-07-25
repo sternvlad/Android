@@ -1,0 +1,532 @@
+
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scroll_calatorie"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_above="@+id/main_bottom"
+     android:layout_below="@+id/main_top" >
+
+     <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp" >
+
+            <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/portocaliu_persoana" />
+            
+
+
+            <RelativeLayout
+          android:id="@+id/asigurare"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/description"
+                android:src="@drawable/asig_calatorie" />
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/imageView1"
+                android:gravity="left"
+                android:layout_marginBottom="2dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/text_header2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/i774"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/text_header3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:gravity="center"
+                    android:text="@string/i775"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_header1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lay1"
+                android:layout_alignLeft="@+id/lay1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="@string/i773"
+                android:textColor="@color/portocaliu_persoana"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        
+               <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/portocaliu_persoana" />
+            
+            <View
+        	android:layout_width="match_parent"
+        	android:layout_height="1dp"
+        	android:layout_marginTop="2dp"
+        	android:background="#C9C9C9" />
+            
+            <TextView
+            android:id="@+id/scop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i162"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="15sp" />
+
+
+              <RadioGroup
+        android:id="@+id/radio_scop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:layout_gravity="left"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp" 
+        android:paddingBottom="5dp">
+
+        <RadioButton
+            android:id="@+id/radio_turism"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_radio_calatorie"
+            android:button="@color/transparent"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:text="@string/i65"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_afaceri"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@drawable/button_radio_calatorie"
+            android:button="@color/transparent"
+            android:paddingBottom="3dp"
+            android:text="@string/i71"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_sofer"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@drawable/button_radio_calatorie"
+            android:button="@color/transparent"
+            android:paddingBottom="3dp"
+            android:text="@string/i81"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="12sp" />
+        
+        <RadioButton
+            android:id="@+id/radio_studii"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@drawable/button_radio_calatorie"
+            android:button="@color/transparent"
+            android:paddingBottom="3dp"
+            android:text="@string/i82"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+             
+            	<View
+        	android:layout_width="match_parent"
+        	android:layout_height="1dp"
+        	android:layout_marginTop="2dp"
+        	android:background="#C9C9C9" />
+            	
+            	
+            	<TextView
+            android:id="@+id/data_inceput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i83"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="15sp" />
+        
+            
+             <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        
+        <TableRow >
+
+            <EditText
+                android:id="@+id/edtNrZile"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:textColor="@color/ColorTitlu"
+                android:background="@color/transparent"
+                android:gravity="left"
+                android:focusable="false"
+                android:maxLength="3"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:text="@string/i87"
+                android:textSize="20sp" >
+
+                <requestFocus />
+            </EditText>
+
+         <Button
+             android:id="@+id/nr_zile_minus"
+             android:layout_width="60dp"
+             android:layout_marginLeft="130dp"
+             android:layout_height="30dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/minus" />
+         <Button
+             android:id="@+id/nr_zile_plus"
+             android:layout_width="60dp"
+             android:layout_marginLeft="0dp"
+             android:layout_height="30dp"
+             android:layout_marginBottom="1dp"
+             android:background="@drawable/plus" />
+
+         </TableRow>
+         
+            </TableLayout>
+            
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#C9C9C9" />
+      
+      
+              <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i85"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/edtTaraDest"
+            android:background="@drawable/edit_text"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:focusableInTouchMode="false"
+            android:gravity="left"
+            android:inputType="text"
+            android:text="@string/description"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:textColor="@color/ColorTitlu"
+            android:textSize="20sp" />
+            	
+            	<TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        
+        <TableRow >
+
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:gravity="left"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/i159"
+        android:textColor="@color/MenuDarkGrey"
+        android:textSize="15sp" />
+
+         <Button
+             android:id="@+id/da_calatorie"
+             android:layout_width="60dp"
+             android:layout_marginLeft="80dp"
+             android:layout_height="30dp"
+             android:text="@string/i92"
+             android:layout_marginTop="5dp"
+             android:layout_marginBottom="5dp"
+             android:background="@drawable/da_nu_nu_da_rca" />
+         <Button
+             android:id="@+id/nu_calatorie"
+             android:layout_width="60dp"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="0dp"
+             android:layout_height="30dp"
+             android:textColor="@color/white"
+             android:layout_marginBottom="1dp"
+             android:text="@string/i98"
+             android:background="@drawable/da_nu_nu_nu_calatorie" />
+
+         </TableRow>
+         
+            </TableLayout>
+            
+            	
+             
+ 		<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C9C9C9" />
+ 		
+ 		<TextView
+            android:id="@+id/scops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i126"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="15sp" />
+
+
+              <RadioGroup
+        android:id="@+id/radio_suma_asig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_gravity="left"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp" 
+        android:paddingBottom="5dp">
+
+        <RadioButton
+            android:id="@+id/radio_5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_radio_calatorie"
+            android:button="@color/transparent"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:text="@string/i185"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_10"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@drawable/button_radio_calatorie"
+            android:button="@color/transparent"
+            android:paddingBottom="3dp"
+            android:text="@string/i186"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radio_30"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@drawable/button_radio_calatorie"
+            android:button="@color/transparent"
+            android:paddingBottom="3dp"
+            android:text="@string/i187"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="12sp" />
+        
+        <RadioButton
+            android:id="@+id/radio_50"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@drawable/button_radio_calatorie"
+            android:button="@color/transparent"
+            android:paddingBottom="3dp"
+            android:text="@string/i188"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+             
+            	<View
+        	android:layout_width="match_parent"
+        	android:layout_height="1dp"
+        	android:layout_marginTop="2dp"
+        	android:background="#C9C9C9" />
+            	
+ 		
+
+            
+             <RelativeLayout
+                android:id="@+id/alege_calator_lay"
+                android:orientation="horizontal"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:background="@drawable/alege_calator">
+
+                <TextView
+                    android:id="@+id/alege_calator"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/ColorTitlu"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/i194" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="70dp"
+                    android:contentDescription="@string/description"
+                    android:layout_height="70dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="20dp"
+                    android:src="@drawable/icon_foto_person" />
+                
+                
+                
+            </RelativeLayout>   
+                  
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#C9C9C9" />
+        
+                     
+            
+            
+             
+                    
+        <TextView
+            android:id="@+id/data_inceput1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i127"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="15sp" />
+        
+            
+             <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        
+        <TableRow >
+
+         <EditText
+                android:id="@+id/edtDataInceput"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/transparent"
+                android:gravity="left"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="@color/ColorTitlu"
+                android:text="@string/description"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/data_inceput_minus"
+             android:layout_width="60dp"
+             android:layout_marginLeft="60dp"
+             android:layout_height="30dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/minus" />
+         <Button
+             android:id="@+id/data_inceput_plus"
+             android:layout_width="60dp"
+             android:layout_marginLeft="0dp"
+             android:layout_height="30dp"
+             android:layout_marginBottom="1dp"
+             android:background="@drawable/plus" />
+
+         </TableRow>
+         
+            </TableLayout>
+
+        	<View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C9C9C9" />
+            
+            
+            <Button
+		        android:id="@+id/calculeaza_calatorie"
+		        android:layout_width="200dp"
+		        android:layout_gravity="center"
+		        android:layout_height="60dp"
+		        android:background="@drawable/calculeaza_calatorie"
+		        android:text="@string/i128" 
+		        android:focusable="true"
+		        android:textStyle="bold"
+		        android:layout_marginTop="5dp"
+		        android:paddingLeft="45dp"
+		        android:textSize="18sp"/>
+        
+
+             
+
+        </LinearLayout>
+        
+        
+          </ScrollView>

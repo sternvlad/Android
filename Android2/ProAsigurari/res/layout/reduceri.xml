@@ -1,0 +1,280 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    	<TextView
+    	    android:id="@+id/textinfo"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_margin="1dp"
+    	    android:gravity="left"
+    	    android:paddingLeft="5dp"
+    	    android:paddingTop="5dp"
+    	    android:text="@string/i19"
+    	    android:textColor="@color/MenuLightGrey"
+    	    android:textSize="13sp" />
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content" >
+
+    	      <ImageView
+                    android:id="@+id/image_arrow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/arrow" />
+
+		      <TextView
+		            android:id="@+id/textReduceri"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_margin="1dp"
+		            android:gravity="left"
+		            android:layout_marginTop="5dp"
+		            android:paddingLeft="5dp"
+		            android:paddingTop="5dp"
+		            android:text="@string/i210"
+		            android:textColor="@color/MenuDarkGrey"
+		            android:textSize="15sp" />
+
+		</LinearLayout>
+             <LinearLayout
+                 android:layout_marginLeft="20dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" >
+                
+                 <CheckBox
+                 android:id="@+id/check_casatorit"
+                 android:layout_width="70dp"
+            	 android:layout_height="70dp"
+                 android:background="@drawable/button_radio_masina"
+                 android:button="@color/transparent"
+                 android:gravity="center"
+                 android:textSize="12sp"
+                 android:layout_marginTop="7dp"
+                 android:text="@string/i211" />
+                 
+                  <CheckBox
+                 android:id="@+id/check_copii_minori"
+                 android:layout_width="70dp"
+            	 android:layout_height="70dp"
+                 android:background="@drawable/button_radio_masina"
+                 android:button="@color/transparent"
+                 android:gravity="center"
+                 android:textSize="12sp"
+                 android:layout_marginTop="0dp"
+                 android:text="@string/i205" />
+                   
+                   <CheckBox
+                 android:id="@+id/check_pensionar"
+                 android:layout_width="70dp"
+            	 android:layout_height="70dp"
+                 android:background="@drawable/button_radio_masina"
+                 android:button="@color/transparent"
+                 android:gravity="center"
+                 android:textSize="12sp"
+                 android:layout_marginTop="7dp"
+                 android:text="@string/i212" />
+                   
+                    <CheckBox
+                 android:id="@+id/check_handicap"
+                 android:layout_width="70dp"
+            	 android:layout_height="70dp"
+                 android:background="@drawable/button_radio_masina"
+                 android:button="@color/transparent"
+                 android:gravity="center"
+                 android:layout_marginTop="0dp"
+                 android:textSize="12sp" 
+                 android:text="@string/i206" />
+                 
+             </LinearLayout>
+             
+            	<View
+           	android:id="@+id/viewBugetari"
+        	android:layout_width="match_parent"
+        	android:layout_height="1dp"
+        	android:layout_marginTop="2dp"
+        	android:background="#C9C9C9" />
+            	
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+              
+              <ImageView
+                    android:id="@+id/image_arrow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/arrow" />
+          
+            	
+	          <TextView
+	            android:id="@+id/textBugetari"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="1dp"
+	            android:gravity="left"
+	            android:paddingLeft="5dp"
+	            android:paddingTop="5dp"
+	            android:text="@string/i213"
+	            android:textColor="@color/MenuDarkGrey"
+	            android:textSize="15sp" />
+        </LinearLayout>
+
+
+ <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        
+        <TableRow >
+
+         <EditText
+                android:id="@+id/edt_nr_bugetari"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:textColor="@color/ColorTitlu"
+                android:background="@color/transparent"
+                android:gravity="left"
+                android:inputType="number"
+                android:textStyle="bold"
+                android:maxLength="1"
+                android:text="0"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:textSize="20sp" />
+
+         <Button
+             android:id="@+id/nr_bugetari_minus"
+             android:layout_width="60dp"
+             android:layout_marginLeft="150dp"
+             android:layout_height="30dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/minus" />
+         <Button
+             android:id="@+id/nr_bugetari_plus"
+             android:layout_width="60dp"
+             android:layout_marginLeft="0dp"
+             android:layout_height="30dp"
+             android:layout_marginBottom="1dp"
+             android:background="@drawable/plus" />
+
+         </TableRow>
+         
+            </TableLayout>
+
+            <View
+                android:id="@+id/ViewAnPermis"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C9C9C9" />
+            
+            <LinearLayout android:layout_width="wrap_content" 
+                	android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image_arrow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/arrow" />
+                
+                
+                
+		        <TextView
+		            android:id="@+id/textAnPermis"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_margin="1dp"
+		            android:gravity="left"
+		            android:paddingLeft="5dp"
+		            android:paddingTop="5dp"
+		            android:text="@string/i214"
+		            android:textColor="@color/MenuDarkGrey"
+		            android:textSize="15sp" />
+            </LinearLayout>
+            
+           
+        
+            
+             <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        
+        <TableRow >
+
+         <EditText
+                android:id="@+id/edtAnPermis"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/transparent"
+                android:textColor="@color/ColorTitlu"
+                android:gravity="left"
+                android:inputType="number"
+                android:maxLength="4"
+                android:text=""
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:textSize="20sp" />
+
+         <Button
+             android:id="@+id/an_permis_minus"
+             android:layout_width="60dp"
+             android:layout_marginLeft="120dp"
+             android:layout_height="30dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/minus" />
+         <Button
+             android:id="@+id/an_permis_plus"
+             android:layout_width="60dp"
+             android:layout_marginLeft="0dp"
+             android:layout_height="30dp"
+             android:layout_marginBottom="1dp"
+             android:background="@drawable/plus" />
+
+         </TableRow>
+         
+            </TableLayout>
+            
+             <View
+                android:id="@+id/viewCasco"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C9C9C9" />
+             
+             <TextView
+            android:id="@+id/textinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:gravity="left"
+            android:text="@string/i215"
+            android:textColor="@color/MenuLightGrey"
+            android:textSize="12sp" />
+             
+             <Button
+            android:id="@+id/ok_reduceri"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ok_button_rca"
+            android:text="   OK"
+            android:textSize="15sp" />
+</LinearLayout>
+</ScrollView>

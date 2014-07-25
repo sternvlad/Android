@@ -1,0 +1,184 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+<LinearLayout
+        android:id="@+id/main_center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+        
+            <LinearLayout
+		    android:focusable="true" 
+		    android:focusableInTouchMode="true"
+		    android:layout_width="0dip" 
+		    android:layout_height="0dip"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+</RelativeLayout>
+        
+        <TextView
+            android:id="@+id/textNumeFirmaAltePers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i122"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="13sp" />
+
+
+        <EditText
+            android:id="@+id/edtNumeFirmaAltePers"
+            android:background="@drawable/edit_text"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ColorTitlu"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:inputType="textCapWords"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        
+
+      <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content" >
+
+		<TextView
+            android:id="@+id/textCUIFirmaAltePers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i95"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/wrong_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/exclamare_atentionare" />
+
+        </RelativeLayout>
+        
+
+        <EditText
+            android:id="@+id/edtCUIFirmaAltePers"
+            android:background="@drawable/edit_text"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/ColorTitlu"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:inputType="number|textCapWords"
+            android:paddingLeft="5dp"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/textJudLocFirmaAltePers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i60"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="13sp" />
+
+
+        <EditText
+            android:id="@+id/edtJudLocFirmaAltePers"
+            android:background="@drawable/edit_text"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ColorTitlu"
+            android:layout_margin="1dp"
+            android:focusableInTouchMode="false"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/textAdresaFirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i62"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="13sp" />
+
+
+        <EditText
+            android:id="@+id/edtAdresaFirmaAltePers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@drawable/edit_text"
+            android:gravity="left"
+            android:inputType="textCapWords"
+            android:textColor="@color/ColorTitlu"
+            android:paddingLeft="5dp"
+            android:lines="1"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:textSize="20sp" />
+        
+		<RelativeLayout 
+                android:layout_width="fill_parent"
+                android:paddingTop="5dp"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/renuntaFirmaAltePers"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:textSize="20sp"
+                   	android:text="@string/i66"
+                   	android:paddingLeft="40dp"
+                   	android:textStyle="bold"
+                   	android:textColor="@color/MenuLightGrey"
+                    android:background="@drawable/button_renunta" >
+                </Button>
+
+                <Button
+                    android:id="@+id/salveazaFirmaAltePers"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="@string/i67"
+                    android:textStyle="bold"
+                    android:paddingLeft="40dp"
+                    android:textSize="20sp"
+                   	android:textColor="@color/MenuLightGrey"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/button_salveaza" />
+
+            </RelativeLayout>
+    
+        </LinearLayout>
+        
+</ScrollView>

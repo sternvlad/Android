@@ -1,0 +1,214 @@
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/main_bottom"
+        android:layout_below="@+id/main_top" >
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+
+                 <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/portocaliu_persoana" />
+
+             <RelativeLayout
+          android:id="@+id/asigurare"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/description"
+                android:src="@drawable/asig_calatorie" />
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/imageView1"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_header2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/i783"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/text_header3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="@string/i784"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_header1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lay1"
+                android:layout_alignLeft="@+id/lay1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="@string/i782"
+                android:textColor="@color/portocaliu_persoana"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+            
+                           <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/portocaliu_persoana" />
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="#C9C9C9" />
+
+           <TextView
+               android:id="@+id/textAdresaLocuinta"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="1dp"
+               android:gravity="left"
+               android:paddingLeft="5dp"
+               android:paddingTop="5dp"
+               android:text="@string/i63"
+               android:textColor="@color/MenuDarkGrey"
+               android:textSize="13sp" />
+
+           <EditText
+               android:id="@+id/edt_telefon_contact"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="1dp"
+               android:background="@drawable/edit_text"
+               android:gravity="left"
+               android:inputType="number|textCapWords"
+               android:paddingLeft="5dp"
+               android:paddingTop="5dp"
+               android:textColor="@color/ColorTitlu"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/textAdresaLocuinta1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="1dp"
+               android:gravity="left"
+               android:paddingLeft="5dp"
+               android:paddingTop="5dp"
+               android:text="@string/i57"
+               android:textColor="@color/MenuDarkGrey"
+               android:textSize="13sp" />
+
+           <EditText
+               android:id="@+id/edt_email_contact"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="1dp"
+               android:background="@drawable/edit_text"
+               android:gravity="left"
+               android:inputType="textEmailAddress"
+               android:paddingLeft="5dp"
+               android:paddingTop="5dp"
+               android:textColor="@color/ColorTitlu"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="1dp"
+               android:gravity="left"
+               android:paddingLeft="5dp"
+               android:paddingTop="5dp"
+               android:text="@string/i90"
+               android:textSize="13sp" />
+
+           <RadioGroup
+               android:id="@+id/radio_tip_plata"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="1dp"
+               android:layout_weight="0.79"
+               android:gravity="left"
+               android:background="#C2C3C3"
+               android:orientation="horizontal"
+               android:paddingLeft="5dp" >
+
+               <RadioButton
+                   android:id="@+id/radio_cash"
+                   android:layout_width="70dp"
+                   android:layout_height="70dp"
+                   android:background="@drawable/button_radio_calatorie"
+                   android:button="@color/transparent"
+                   android:checked="true"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:gravity="center"
+                   android:paddingBottom="3dp"
+                   android:text="@string/i179"
+                   android:textColor="@color/MenuDarkGrey"
+                   android:textSize="12sp" />
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:paddingLeft="8dp"
+                   android:layout_marginTop="2dp"
+                   android:textSize="12sp"
+                   android:gravity="center"
+                   android:text="@string/i648" />
+
+           </RadioGroup>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:layout_marginTop="2dp"
+               android:background="#C9C9C9" />
+
+           <Button
+               android:id="@+id/btn_comanda"
+               android:layout_width="200dp"
+               android:layout_height="60dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="5dp"
+               android:background="@drawable/comanda_calatorie"
+               android:paddingLeft="50dp"
+               android:text="@string/i96"
+               android:textColor="@color/white"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+       </LinearLayout>
+
+    </ScrollView>

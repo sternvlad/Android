@@ -1,0 +1,129 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_generic_inalt"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_img" />
+
+        <TextView
+            android:id="@+id/text_titlu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/i137"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ok_button_operator"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ok_button_rca"
+        android:paddingLeft="30dp"
+        android:text="OK"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_first"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/i216"
+        android:textColor="@color/ColorTitlu"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text_second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/i217"
+        android:textColor="#990000"
+        android:textSize="14sp" />
+
+     <RadioGroup
+         android:id="@+id/radio_operator"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/ok_button_operator"
+         android:layout_centerHorizontal="true"
+         android:layout_margin="1dp"
+         android:gravity="left"
+         android:orientation="horizontal"
+         android:paddingBottom="50dp"
+         android:paddingLeft="5dp"
+         android:paddingTop="5dp" >
+
+         <RadioButton
+             android:id="@+id/radio_vdf"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:background="@drawable/button_radio_masina"
+             android:button="@color/transparent"
+             android:gravity="center"
+             android:drawableTop="@drawable/operator_vodafone"
+             android:paddingBottom="15dp"
+             android:layout_marginRight="5dp"
+             android:text="@string/i129"
+             android:textColor="@color/MenuDarkGrey"
+             android:textSize="12sp" />
+
+         <RadioButton
+             android:id="@+id/radio_org"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:background="@drawable/button_radio_masina"
+             android:button="@color/transparent"
+             android:gravity="center"
+             android:drawableTop="@drawable/operator_orange"
+             android:layout_marginRight="5dp"
+             android:layout_marginLeft="5dp"
+             android:paddingBottom="15dp"
+             android:text="@string/i130"
+             android:textColor="@color/MenuDarkGrey"
+             android:textSize="12sp" />
+
+         <RadioButton
+             android:id="@+id/radio_cosmo"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:layout_marginLeft="5dp"
+             android:background="@drawable/button_radio_masina"
+             android:button="@color/transparent"
+             android:gravity="center"
+             android:drawableTop="@drawable/operator_cosmote"
+             android:paddingBottom="15dp"
+             android:text="@string/i132"
+             android:textColor="@color/MenuDarkGrey"
+             android:textSize="12sp" />
+     </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+ 
+    
+           	    <ImageView
+           	        android:id="@+id/left_img"
+           	        android:layout_width="wrap_content"
+           	        android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+           	        android:layout_marginLeft="5dp"
+           	        android:layout_marginTop="3dp"
+           	        android:layout_marginRight="1dp"
+           	        android:layout_marginBottom="3dp"
+           	        android:src="@drawable/icon_alerta_casco" />
+
+           	    <View
+        			android:layout_width="fill_parent"
+        			android:layout_height="1dp"
+        			android:layout_below="@+id/left_img"
+        			android:background="#C9C9C9" />
+
+           	    <TextView
+           	        android:id="@+id/text_List"
+           	        android:layout_width="210dp"
+           	        android:layout_height="wrap_content"
+           	        android:layout_alignBottom="@+id/left_img"
+           	        android:layout_toRightOf="@+id/left_img"
+           	        android:layout_marginBottom="0dp"
+           	        android:layout_marginLeft="5dp"
+           	        android:text="selecteaza ultima zi de valabilitate"
+           	        android:textColor="@color/MenuLightGrey"
+           	        android:textSize="12sp" />
+
+           	    <TextView
+           	        android:id="@+id/text_listTop"
+           	        android:layout_width="wrap_content"
+           	        android:layout_height="wrap_content"
+           	        android:layout_alignLeft="@+id/text_List"
+           	        android:layout_alignParentTop="true"
+           	        android:layout_marginTop="2dp"
+           	        android:text="RATA SCADENTA CASCO"
+           	        android:textSize="15sp" />
+
+</RelativeLayout>
