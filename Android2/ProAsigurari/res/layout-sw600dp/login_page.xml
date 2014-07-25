@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+<RelativeLayout
+          android:id="@+id/masina"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/description"
+                android:src="@drawable/header_cont_login" />
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_toLeftOf="@+id/imageView1" >
+            
+            <TextView
+                android:id="@+id/text_header1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/i902"
+                android:textColor="@color/rosu_termeni"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/text_header2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/i903"
+               android:textColor="@color/ColorTitlu"
+                android:textSize="45sp" />
+            
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_header3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/lay1"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:layout_toLeftOf="@+id/imageView1"
+                android:text="@string/i904"
+                android:textColor="@color/MenuLightGrey"
+                android:textSize="25sp" />
+        </RelativeLayout>
+        
+                    
+         
+        
+            
+                    
+            <LinearLayout
+                android:id="@+id/main_center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/masina"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp" >
+                <LinearLayout
+                    android:id="@+id/niciunid"
+                    android:layout_width="0dip"
+                    android:orientation="horizontal"
+                    android:layout_height="0dip"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
+                
+                 <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:background="#C9C9C9" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/textNumeAltePersV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="left"
+                        android:paddingTop="5dp"
+                        android:text="@string/i905"
+                        android:textColor="@color/MenuDarkGrey"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/edt_mail_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text"
+                        android:gravity="left"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:textColor="@color/ColorTitlu"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+
+		<TextView
+            android:id="@+id/textCNPAltePersV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i906"
+            android:paddingLeft="2dp"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+
+
+ 					<EditText
+                        android:id="@+id/edt_parola_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text"
+                        android:gravity="left"
+                        android:maxLength="25"
+                        android:inputType="textPassword"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:textColor="@color/ColorTitlu"
+                        android:textStyle="bold"
+                        android:textSize="27sp" />
+ 					
+ 					
+ 					    	<Button 
+					    	    android:id="@+id/btn_forgot"
+					    	    android:layout_width="wrap_content"
+					    	    android:layout_height="70dp"
+					    	    android:paddingLeft="30dp"
+					    	    android:paddingRight="10dp"
+					    	    android:layout_marginLeft="5dp"
+					    	    android:layout_gravity="right"
+					    	    android:background="@color/transparent"
+					    	    android:layout_marginTop="15dp"
+					    	    android:textColor="@color/albastruInchis"
+					    	    android:layout_marginBottom="15dp"
+					    	    android:text = "@string/i907"
+					    	    android:textSize="20sp"/>
+
+
+                        <Button
+                            android:id="@+id/btn_login"
+                            android:layout_width="280dp"
+                            android:layout_height="75dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/calculeaza_rca"
+                            android:text="@string/i900"
+                            android:layout_marginTop="10dp"
+                            android:paddingLeft="90dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/MenuLightGrey"
+                            android:textSize="22sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+   
+    <ImageView
+        android:id="@+id/tooltip_persoanaV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_tooltip"
+        android:paddingTop="0dp"
+        android:contentDescription="@string/description"
+        android:src="@drawable/tooltip_calatorie"
+        android:visibility="gone" />
+
+</RelativeLayout>

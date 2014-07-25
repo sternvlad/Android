@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:background="@drawable/top_bar"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#07000000"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Contul meu"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="top"
+        android:background="@drawable/bottom_bar"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/menu1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_menu"
+            android:drawableTop="@drawable/img_datele_mele"
+            android:gravity="center_horizontal"
+            android:text="Datele mele"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/menu2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_menu"
+            android:drawableTop="@drawable/img_asigurari"
+            android:gravity="center_horizontal"
+            android:text="Incheie asigurare"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/menu3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_menu"
+            android:drawableTop="@drawable/img_alerte"
+            android:gravity="center_horizontal"
+            android:text="Alerte"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/menu4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_menu"
+            android:drawableTop="@drawable/img_altele"
+            android:gravity="center_horizontal"
+            android:text="Altele"
+            android:textColor="@color/white"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/main_bottom"
+        android:layout_below="@+id/main_top"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+
+        <ListView
+            android:id="@+id/android:list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:clickable="true"
+            android:divider="@drawable/divider"
+            android:dividerHeight="2dp"
+            android:typeface="sans" >
+
+        </ListView>
+    </LinearLayout>
+
+
+</RelativeLayout>

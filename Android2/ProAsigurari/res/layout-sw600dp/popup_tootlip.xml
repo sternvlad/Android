@@ -1,0 +1,42 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupa_tool"
+    android:layout_width="600dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tooltip1" >
+
+   <LinearLayout
+       android:id="@+id/linearLayout1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:paddingTop="500dp"
+       android:paddingRight="10dp" >
+
+       <Button
+           android:id="@+id/button_inchide"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/tooltip_inchide" />
+
+       <Button
+           android:id="@+id/button_continua"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:background="@drawable/tooltip_continua" />
+   </LinearLayout>
+
+   <Button
+       android:id="@+id/button_ok"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="400dp"
+       android:layout_marginRight="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:visibility="gone"
+       android:background="@drawable/tooltip_ok" />
+
+</RelativeLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+
+
+
+                    <RelativeLayout
+          android:id="@+id/asigurare"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@string/description"
+                android:src="@drawable/header_valabilitate_rca" />
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/imageView1" >
+            
+            <TextView
+                android:id="@+id/text_header1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/i718"
+                android:textColor="@color/mov_valabilitate"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/text_header2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/i719"
+                android:layout_marginLeft="5dp"
+               android:textColor="@color/ColorTitlu"
+                android:textSize="26sp" />
+            
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_header3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/lay1"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:layout_toLeftOf="@+id/imageView1"
+                android:text="@string/i720"
+                android:textColor="@color/MenuLightGrey"
+                android:textSize="13sp" />
+        </RelativeLayout>
+            
+
+
+<ScrollView
+    android:id="@+id/scroll_valabilitate"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+            
+
+
+    <LinearLayout
+         	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp" >
+
+        <RelativeLayout 
+            android:layout_marginTop="3dp"
+            android:layout_width="fill_parent"
+            android:background="@drawable/tooltip_valabilitate_rca"
+            android:layout_height="70dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/i218"/>
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/alege_masina_valabilitate_lay"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@drawable/alege_masina_mov"
+            android:clickable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                android:src="@drawable/icon_foto" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imageView1"
+                android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/alege_masina_valabilitate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/i147"
+                android:textColor="@color/ColorTitlu"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/detalii_masina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text=""
+                android:textColor="@color/ColorTitlu"
+                android:textSize="15sp" />
+            
+            </LinearLayout>
+        </RelativeLayout>
+        
+        <TextView
+    
+    	android:id="@+id/textView2"
+    	android:layout_marginTop="10dp"
+    	android:layout_width="fill_parent"
+    	android:textSize="13sp"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:layout_height="wrap_content"
+    	android:textColor="@color/MenuLightGrey"
+    	android:text="@string/i209" />
+        
+                <View
+ 			android:layout_width="match_parent"
+ 			android:layout_height="1dp"
+ 			android:background="#C9C9C9" /> 
+            
+            <Button
+		        android:id="@+id/btn_verifica_rca"
+		        android:layout_width="200dp"
+		        android:layout_gravity="center"
+		        android:layout_height="60dp"
+		        android:background="@drawable/verifica_rca"
+		        android:text="@string/i21" 
+		        android:textColor="@color/MenuDarkGrey"
+		        android:textStyle="bold"
+		        android:layout_marginTop="5dp"
+		        android:paddingLeft="60dp"
+		        android:textSize="20sp"/>
+        
+    </LinearLayout>
+    
+    
+    </ScrollView>
+
+
+
+</LinearLayout>

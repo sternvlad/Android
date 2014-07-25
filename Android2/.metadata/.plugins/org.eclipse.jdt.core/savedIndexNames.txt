@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+C:\Users\adm_broker\Box Sync\Android2\.metadata\.plugins\org.eclipse.jdt.core
+4169456337.index
+1100761507.index
+3039734696.index
+4131835447.index

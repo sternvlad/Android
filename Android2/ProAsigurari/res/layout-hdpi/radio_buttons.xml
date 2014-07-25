@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#4c4c4c"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:background="@drawable/top_bar"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/titlu_pagina_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#07000000"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Titlu"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/popup_locuinta"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titlu_lay_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:paddingTop="10dp"
+            android:text="@string/i175"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ok_button_radio"
+            android:layout_below="@+id/titlu_lay_radio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="33dp" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="523dp"
+                android:layout_marginLeft="0dp" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioGroup
+                        android:id="@+id/radio_group1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/r1"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r2"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r3"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <RadioGroup
+                        android:id="@+id/radio_group2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/r4"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r5"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r6"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <RadioGroup
+                        android:id="@+id/radio_group3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/r7"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r8"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r9"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <RadioGroup
+                        android:id="@+id/radio_group4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/r10"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r11"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r12"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <RadioGroup
+                        android:id="@+id/radio_group5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/r13"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r14"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r15"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <RadioGroup
+                        android:id="@+id/radio_group6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/r16"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r17"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r18"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <RadioGroup
+                        android:id="@+id/radio_group7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="left"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/r19"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r20"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/r21"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/button_radio_locuinta"
+                            android:button="@color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/MenuDarkGrey"
+                            android:textSize="11sp" />
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/ok_button_radio"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ok_button_locuinta"
+            android:text="   OK"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

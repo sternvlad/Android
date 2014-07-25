@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_tip_asig"
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+		android:paddingLeft="5dp"
+      	android:background="@color/albastruInchis"
+      	android:textColor="@color/white"
+      	android:layout_marginBottom="3dp"
+      	android:text="ACL-Complet"/>
+
+
+    <LinearLayout
+        
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content" >
+        
+        <ImageView
+           	android:id="@+id/img_companie"
+           	android:layout_width="100dp"
+           	android:layout_height="38dp"
+           	android:layout_marginLeft="3dp"
+           	android:src="@drawable/omniasig" />
+
+
+        <TextView
+            android:id="@+id/pret_loc"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="12.50 EUR"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/linear"
+            android:layout_width="83dp"
+            android:layout_height="32dp"
+            android:text="Adauga in cos"
+            android:orientation="horizontal"
+            android:background="@drawable/adauga_in_cos"
+            android:clickable="false"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="3dp" />
+
+</LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:text="Fransiza"
+            android:textStyle="bold"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:text="@string/i16"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="185dp"
+            android:textStyle="bold"
+            android:text="Acop. furt"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:textStyle="bold"
+            android:text="Rasp. civila"
+            android:textSize="11sp" />
+
+
+        <ImageView
+            android:id="@+id/checkedAF"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/icon_x" />
+
+        <ImageView
+            android:id="@+id/checkedAAC"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/icon_x" />
+
+        <ImageView
+            android:id="@+id/checkedRC"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:visibility="gone"
+            android:src="@drawable/icon_x" />
+
+        <TextView
+            android:id="@+id/tvFransiza"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_toLeftOf="@+id/checkedAF"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text="2 % din SA..."
+            android:textColor="#259c5a"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:background="#C9C9C9" />
+
+        <TextView
+            android:id="@+id/suma_rc"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="21dp"
+            android:paddingRight="5dp"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text="fara"
+            android:textColor="#259c5a"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

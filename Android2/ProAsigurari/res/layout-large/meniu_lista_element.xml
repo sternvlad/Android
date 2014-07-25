@@ -1,0 +1,51 @@
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/imgList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/setari_alte_persoane" />
+
+        <TextView
+            android:id="@+id/textListTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/imgList"
+            android:layout_centerVertical="true"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            
+            android:paddingBottom="40dp"
+            android:paddingLeft="80dp"
+            android:text="CONTUL MEU"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/imgList"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/list_arrow" />
+
+        <TextView
+            android:id="@+id/textList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textListTop"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:lines="1"
+            android:paddingLeft="80dp"
+            android:paddingTop="10dp"
+            android:text="3 PERSOANE"
+            android:textColor="@color/MenuLightGrey"
+            android:textSize="22sp" />
+
+    </RelativeLayout>

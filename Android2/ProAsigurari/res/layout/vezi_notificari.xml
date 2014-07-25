@@ -1,0 +1,56 @@
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/main_center"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/main_bottom"
+	    android:orientation="vertical" >
+		    <ImageView
+		        android:id="@+id/adauga_asigurare"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/header_ecran_incheie_asigurare"
+		        android:textSize="15sp"/>
+
+		    		    <View
+					        android:layout_width="match_parent"
+					        android:layout_height="1dp"
+					        android:background="#C9C9C9" />
+		
+				<RelativeLayout 
+				    android:id="@+id/hint_alerte"
+		    		android:layout_width="fill_parent"
+		    		android:layout_height="wrap_content">
+
+		<ImageView
+		    android:id="@+id/iv_zero_alerte"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginTop="40dp"
+		    android:layout_centerHorizontal="true"
+		    android:src="@drawable/zero_alerte" />
+
+		<TextView
+		    android:id="@+id/tv_zero_alerte"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentLeft="true"
+		    android:gravity="center"
+		    android:paddingTop="180dp"
+		    android:text="@string/i207"
+		    android:textSize="16sp" />
+
+		</RelativeLayout>
+	    	
+		<ListView
+	    	android:id="@+id/android:list"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:choiceMode="none"
+	    	android:focusable="false"
+	    	android:divider="@drawable/divider"
+	    	android:dividerHeight="2dp"
+	    	android:typeface="sans">
+    	</ListView>
+	</LinearLayout>

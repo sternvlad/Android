@@ -1,0 +1,79 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/popup_generic" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/description"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_img" />
+    
+    <TextView
+        android:id="@+id/text_titlu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i123"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="27sp"
+        android:textColor="#000000" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_continut"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/i811"
+        android:textColor="#000000" />
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:layout_marginTop="57dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_nu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_renunta"
+            android:paddingLeft="30dp"
+            android:text="@string/i813"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_da"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/button_salveaza"
+            android:paddingLeft="60dp"
+            android:text="@string/i812"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

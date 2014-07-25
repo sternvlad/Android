@@ -1,0 +1,271 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<LinearLayout
+        android:id="@+id/main_center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+        
+            <LinearLayout
+                android:id="@+id/focusablelay2"
+			    android:focusable="true" 
+			    android:orientation="vertical"
+			    android:focusableInTouchMode="true"
+			    android:layout_width="0dip" 
+			    android:layout_height="0dip"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/textNumeFirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i122"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/edtNumeFirma"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@drawable/edit_text"
+            android:gravity="left"
+            android:textColor="@color/ColorTitlu"
+            android:inputType="textCapWords"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textStyle="bold"
+            android:textSize="27sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content" >
+
+		<TextView
+            android:id="@+id/textCUIFirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i95"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/wrong_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:contentDescription="@string/description"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/exclamare_atentionare" />
+
+        </RelativeLayout>
+        
+        
+
+        <EditText
+            android:id="@+id/edtCUIFirma"
+            android:background="@drawable/edit_text"
+            android:paddingTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:textStyle="bold"
+            android:textColor="@color/ColorTitlu"
+            android:gravity="left"
+            android:inputType="number|textCapWords"
+            android:paddingLeft="5dp"
+            android:textSize="27sp" >
+            
+               <requestFocus />
+               </EditText>
+        
+        <TextView
+            android:id="@+id/textJudLocFirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i60"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/edtJudLocFirma"
+            android:background="@drawable/edit_text"
+            android:paddingTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:focusableInTouchMode="false"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:textColor="@color/ColorTitlu"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:textSize="27sp" />
+        
+        <TextView
+            android:id="@+id/textAdresaFirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i62"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/edtAdresaFirma"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:textStyle="bold"
+            android:background="@drawable/edit_text"
+            android:gravity="left"
+            android:inputType="textCapWords"
+            android:textColor="@color/ColorTitlu"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textSize="27sp" />
+        
+        <TextView
+            android:id="@+id/textTelefonFirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i63"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/edtTelefonFirma"
+            android:background="@drawable/edit_text"
+            android:paddingTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:inputType="number|textCapWords"
+            android:textColor="@color/ColorTitlu"
+            android:paddingLeft="5dp"
+            android:textSize="27sp" />
+        
+             <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textEmailFirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i57"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/wrong_textmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:contentDescription="@string/description"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/exclamare_atentionare" />
+
+        </RelativeLayout>
+        
+
+
+
+        <EditText
+            android:id="@+id/edtEmailFirma"
+            android:background="@drawable/edit_text"
+            android:paddingTop="5dp"
+            android:layout_width="fill_parent"
+            android:textColor="@color/ColorTitlu"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:inputType="textEmailAddress"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:lines="1"
+            android:paddingLeft="5dp"
+            android:textSize="27sp" />
+        
+		<RelativeLayout 
+                android:layout_width="fill_parent"
+                android:paddingTop="15dp"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/renuntaFirma"
+                    android:layout_width="240dp"
+                	android:layout_height="85dp"
+	                android:background="@drawable/button_renunta"
+	                android:paddingLeft="30dp"
+	                android:text="@string/i66"
+	                android:layout_marginLeft="15dp"
+	                android:textColor="@color/MenuLightGrey"
+	                android:textSize="23sp"
+	                android:textStyle="bold" >
+                </Button>
+
+                <Button
+                    android:id="@+id/salveazaFirma"
+                    android:layout_width="240dp"
+	                android:layout_height="85dp"
+	                android:layout_alignParentRight="true"
+	                android:layout_alignParentTop="true"
+	                android:background="@drawable/button_salveaza"
+	                android:paddingLeft="40dp"
+	                android:layout_marginRight="15dp"
+	                android:text="@string/i67"
+	                android:textColor="@color/MenuLightGrey"
+	                android:textSize="23sp"
+	                android:textStyle="bold" />
+
+            </RelativeLayout>
+
+    </LinearLayout>
+   
+    
+        </LinearLayout>
+        </ScrollView>

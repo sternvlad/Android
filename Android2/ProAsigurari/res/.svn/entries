@@ -1,0 +1,52 @@
+10
+
+dir
+13
+https://192.168.1.4:448/svn/i-AsigurareAndroid_2.0/i-Asigurare2.0/res
+https://192.168.1.4:448/svn/i-AsigurareAndroid_2.0
+
+
+
+2012-12-06T12:20:14.050129Z
+13
+vlad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+81ce4dba-dd05-a649-b6c0-3bfefbab141b
+
+values
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+menu
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+

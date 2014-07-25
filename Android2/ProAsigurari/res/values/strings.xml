@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Loco xml export: Android string resources
+ Project: strings.xml conversion
+ Release: Working copy
+ Locale: ro_RO, Romanian; Moldavian; Moldovan
+ Exported at: Thu, 03 Oct 2013 14:40:03 +0100
+-->
+	<resources>
+	<string name="description"></string>
+    <string name="app_name">i-Asigurare</string>
+    <string name="menu_settings"></string>
+    <string name ="tag">1</string>
+    <string name="i0">Diseases/Disorders</string>
+    <string name="i1">i-Asigurare</string>
+    <string name="i2">Pupil\n/Student</string>
+    <string name="i3">Sport\nAgrement</string>
+    <string name="i4">Disability\nDegree</string>
+    <string name="i5">Heart\ndiseases</string>
+    <string name="i6">Neuro\ndiseases</string>
+    <string name="i7">Internal\ndiseases</string>
+    <string name="i8">Respiratory\ndiseases</string>
+    <string name="i9">Irreversible\ndiseases</string>
+    <string name="i10">Other\ndiseases</string>
+	<string name="i11">Discounts/Increases</string>
+	<string name="i12">If you like i-Asigurare please\ntake a minute to evaluate\nthe applicaton in Google Play</string>
+    <string name="i13">Do you like i-Asigurare?</string>
+    <string name="i14">Review\nnow</string>
+    <string name="i15">Choose traveller</string>
+    <string name="i16">Water pipe cover</string>
+    <string name="i17">Continue</string>
+    <string name="i18">Home Insurance</string>
+    <string name="i19">All of the below information refers to the vehicle owner</string>
+    <string name="i20">Remind\nme later</string>
+    <string name="i21">Check MTPL</string>
+    <string name="i22">Notifications</string>
+    <string name="i23">OK</string>
+    <string name="i24">INFO</string>
+    <string name="i25">YOUR EMAIL</string>
+    <string name="i26">YOUR PHONE NUMBER</string>
+    <string name="i27">MESSAGE SUBJECT</string>
+    <string name="i28">...</string>
+    <string name="i29">YOUR MESSAGE</string>
+    <string name="i30">Send</string>
+    <string name="i31">either the insurance company didn\'t provide the data to CEDAM, or it provided incorrect data</string>
+    <string name="i32">SEATS NUMBER</string>
+    <string name="i33">MAXIMUM MASS (KG)</string>
+    <string name="i34">Theft cover</string>
+    <string name="i35">PRODUCTION YEAR</string>
+    <string name="i36">FUEL</string>
+    <string name="i37">gas</string>
+    <string name="i38">domestic\nuse</string>
+    <string name="i39">   OK</string>
+    <string name="i40">WHY activate the push notifications:\nyou will be notified for the alerts set by you\nyou will know when there are offers and promotions\nyou may receive discounts</string>
+    <string name="i41">taxi</string>
+    <string name="i42">goods distribution</string>
+    <string name="i43">REGISTRATION CERTIFICATE SERIAL</string>
+    <string name="i44">USE OF VEHICLE</string>
+    <string name="i45">Civil liability</string>
+    <string name="i46">Full\nprice</string>
+    <string name="i47">Insured amount (at least 10000 EUR)</string>
+    <string name="i48">Civil liability insured amount (EUR))</string>
+    <string name="i49">Replacement\nvalue</string>
+   	<string name="i50">Real\nvalue</string>
+   	<string name="i51">Market\nvalue</string>
+   	<string name="i52">Bank\nevaluation</string>
+    <string name="i53">Ask for the offer</string>
+    <string name="i54">NAME AND SURNAME</string>
+    <string name="i55">Vodafone\nclient price</string>
+    <string name="i56">SSN</string>
+    <string name="i57">EMAIL</string>
+    <string name="i58">CHOOSE OPERATOR</string>
+    <string name="i59">ID / PASSPORT SERIAL</string>
+    <string name="i60">COUNTY, CITY</string>
+    <string name="i61">COUNTY, CITY</string>
+    <string name="i62">ADDRESS</string>
+    <string name="i63">PHONE</string>
+    <string name="i64">CAEN</string>
+    <string name="i65">Tourism</string>
+    <string name="i66">Quit</string>
+    <string name="i67">Save</string>
+    <string name="i68">VEHICLE IN LEASING?</string>
+    <string name="i69">LEASING COMPANY NAME</string>
+    <string name="i70">Choose the property</string>
+    <string name="i71">Business</string>
+    <string name="i72">Search</string>
+    <string name="i73">The fees are directly obtained from the insurance companies.</string>
+    <string name="i74">The travel insurance payment is done only with the card.</string>
+    <string name="i75">You will receive the policy by email within a few minutes after payment is completed.</string>
+    <string name="i76">The fees are directly obtained from the insurance companies.</string>
+    <string name="i77">INSURED PROPERTY</string>
+    <string name="i78">The payment for the home insurance is done online with the card.</string>
+    <string name="i79">diesel</string>
+    <string name="i80">You will receive the policy by email within a few minutes after payment is completed.</string>
+    <string name="i81">Professional driver</string>
+    <string name="i82">Studies</string>
+    <string name="i83">Number of days</string>
+    <string name="i84">lpg</string>
+    <string name="i85">Destination country</string>
+    <string name="i86">PROPERTY OWNER</string>
+    <string name="i87">5</string>
+    <string name="i88">Evaluation module</string>
+    <string name="i89">The fees are directly obtained from the insurance companies.</string>
+    <string name="i90">Choose the payment method</string>
+    <string name="i91">The MTPL insurance policy is delivered for FREE by quick delivery</string>
+    <string name="i92">YES</string>
+    <string name="i93">HOUSE TYPE</string>
+    <string name="i94">Apartment</string>
+    <string name="i95">BUSINESS REGISTER NUMBER</string>
+    <string name="i96">Order</string>
+    <string name="i97">House - shared</string>
+    <string name="i98">NO</string>
+    <string name="i99">FLOOR</string>
+    <string name="i100">NUMBER OF ROOMS</string>
+    <string name="i101">VEHICLE BRAND</string>
+    <string name="i102">CHASSIS NUMBER</string>
+    <string name="i103">CM3</string>
+    <string name="i104">VEHICLE MODEL</string>
+    <string name="i105">POWER (KW)</string>
+    <string name="i106">VEHICLE CATEGORY</string>
+    <string name="i107">CONSTRUCTION YEAR (>=1900)</string>
+    <string name="i108">Automobile</string>
+    <string name="i109">Motorbike</string>
+    <string name="i110">CERTIFICATE COUNTY, CITY</string>
+    <string name="i111">REGISTRATION PLATE NO.</string>
+    <string name="i112">Off-road vehicle</string>
+    <string name="i113">BUILDING HEIGHT (NO. OF FLOORS)</string>
+    <string name="i114">OTHER INFORMATION</string>
+    <string name="i115">SURFACE (SM)</string>
+    <string name="i116">2</string>
+    <string name="i117">NUMBER OF TENANTS</string>
+    <string name="i118">RESISTANCE STRUCTURE</string>
+    <string name="i119">House - individual</string>
+    <string name="i120">DELIVERY (COUNTY, CITY)</string>
+    <string name="i121">DELIVERY (STREET, NUMBER, BLOCK)</string>
+    <string name="i122">NAME</string>
+    <string name="i123">Warning!</string>
+    <string name="i124">Operator</string>
+    <string name="i125">Please fill in your phone number and the e-mail address in My Data - My Profile. We need this information in order to send you the offer.</string>
+    <string name="i126">Insured amount</string>
+    <string name="i127">Insurance start date</string>
+    <string name="i128">Calculate</string>
+    <string name="i129">Vodafone</string>
+    <string name="i130">Orange</string>
+    <string name="i131">TO TELL US SOMETHING</string>
+    <string name="i132">Cosmote</string>
+    <string name="i133">Text mai mic</string>
+    <string name="i134">text</string>
+    <string name="i135">DUE INSTALMENT</string>
+    <string name="i136">select the last validity date</string>
+    <string name="i137">Start</string>
+    <string name="i138">DUE INSTALMENT</string>
+    <string name="i139">11.11.2011</string>
+    <string name="i140">Franchise</string>
+    <string name="i141">no</string>
+    <string name="i142">Sport cover</string>
+    <string name="i143">Electronics</string>
+    <string name="i144">Baggage</string>
+    <string name="i145">Confirm deletion</string>
+    <string name="i146">Press YES to delete this registration, if you don\'t want to delete the registration press NO.</string>
+    <string name="i147">Choose the vehicle</string>
+    <string name="i148">Choose the owner</string>
+    <string name="i149">VEHICLE OWNER (SEE CERTIFICATE)</string>
+    <string name="i150">Vehicle km number</string>
+    <string name="i151">Vehicle color</string>
+    <string name="i152">If the car has Motor Hull please select the company</string>
+    <string name="i153">Allianz</string>
+    <string name="i154">Omniasig</string>
+    <string name="i155">Generali</string>
+    <string name="i156">Information on DISCOUNTS</string>
+    <string name="i157">choose from the list</string>
+    <string name="i158">INSURED VEHICLE</string>
+    <string name="i159">With tranzit</string>
+    <string name="i160"></string>
+    <string name="i161">Choose payment method</string>
+    <string name="i162">Travel objective</string>
+    <string name="i163">In full\n </string>
+    <string name="i164">2 Instalments</string>
+    <string name="i165">4 Instalments</string>
+    <string name="i166"><b>"Add vehicle"</b></string>
+    <string name="i167"><b>"Add property"</b></string>
+    <string name="i168"><b>"Add insured person"</b></string>
+    <string name="i169">Full\nconditions</string>
+    <string name="i170">Cover\nsummary</string>
+    <string name="i171">There aren\'t persons saved in the list.\nIn order to add a new person, press the button above\n\"Add insured person\"</string>
+    <string name="i172">There aren\'t properties saved in the list.\nIn order to add a new property, push the button above\n\"Add property\"</string>
+    <string name="i173">There aren\'t any cars saved in the list.\nTo add a new car, press the button above\n\"Add vehicle\"</string>
+    <string name="i174">You have no ordered insurance.\nThe insurance policies ordered through the application will automatically appear</string>
+    <string name="i175"><b>Titlu layout</b></string>
+    <string name="i176">We search\nfor the lowest fees\ndirectly from the\ninsurance companies</string>
+    <string name="i177">CASH,upon\ndelivery</string>
+    <string name="i178">Bank\ntransfer</string>
+    <string name="i179">ONLINE,\ncard</string>
+    <string name="i180">EMAIL CONTACT</string>
+    <string name="i181">PHONE CONTACT</string>
+    <string name="i182">\n\nThis information will be provided to an i-Asigurare representative. We try to get the best prices for your car.\n\nDue to high number of requests, it might take up to 3 days\nuntil we send you the fees, as all the requests\nare individually processed.\n\nTaking this into account, please ask for an offer only if your car needs a Motor Hull insurance in the next 30 days.\n\n</string>
+	<string name="i183">It was a test.\nQUIT</string>
+	<string name="i184">It \'s clear.\nI want Motor Hull</string>
+	<string name="i185">5.000\nEUR</string>
+	<string name="i186">10.000\nEUR</string>
+	<string name="i187">30.000\nEUR</string>
+	<string name="i188">50.000\nEUR</string>
+	<string name="i189">5.000 €</string>
+	<string name="i190">10.000 €</string>
+	<string name="i191">30.000 €</string>
+	<string name="i192">50.000 €</string>
+	<string name="i193">You\'ve got BO Bonus. The fees could be higher! Possible causes:</string>
+	<string name="i194">Choose travellers \nYou can choose several persons</string>
+	<string name="i195">Real\nvalue</string>
+	<string name="i196">6 months</string>
+	<string name="i197">12 months</string>
+	<string name="i198">Market\nvalue</string>
+	<string name="i199">Bank\nvalue</string>
+	<string name="i200">The returned results are provided by CEDAM database, and not by the i-Asigurare application!\n
+If the received message is incorrect it means that the insurance company where you concluded the policy didn\'t provide the correct information to CEDAM or you inserted the registration plate / chassis number wrongly\n
+If the policy is not found, it means that:</string>
+	<string name="description"></string>
+    <string name="menu_settings"></string>
+    <string name="i0">Diseases/Disorders</string>
+    <string name="i1">i-Asigurare</string>
+    <string name="i2">Pupil\n/Student</string>
+    <string name="i3">Sport\nAgrement</string>
+    <string name="i4">Disability\nDegree</string>
+    <string name="i5">Heart\ndiseases</string>
+    <string name="i6">Neuro\ndiseases</string>
+    <string name="i7">Internal\ndiseases</string>
+    <string name="i8">Respiratory\ndiseases</string>
+    <string name="i9">Irreversible\ndiseases</string>
+    <string name="i10">Other\ndiseases</string>
+	<string name="i11">Discounts/Increases</string>
+	<string name="i12">If you like i-Asigurare please\ntake a minute to evaluate\nthe applicaton in Google Play</string>
+    <string name="i13">Do you like i-Asigurare?</string>
+    <string name="i14">Review\nnow</string>
+    <string name="i15">Choose traveller</string>
+    <string name="i16">Water pipe cover</string>
+    <string name="i17">Continue</string>
+    <string name="i18">Home Insurance</string>
+    <string name="i19">All of the below information refers to the vehicle owner</string>
+    <string name="i20">Remind\nme later</string>
+    <string name="i21">Check MTPL</string>
+    <string name="i22">Notifications</string>
+    <string name="i23">OK</string>
+    <string name="i24">INFO</string>
+    <string name="i25">YOUR EMAIL</string>
+    <string name="i26">YOUR PHONE NUMBER</string>
+    <string name="i27">MESSAGE SUBJECT</string>
+    <string name="i28">...</string>
+    <string name="i29">YOUR MESSAGE</string>
+    <string name="i30">Send</string>
+    <string name="i31">either the insurance company didn\'t provide the data to CEDAM, or it provided incorrect data</string>
+    <string name="i32">SEATS NUMBER</string>
+    <string name="i33">MAXIMUM MASS (KG)</string>
+    <string name="i34">Theft cover</string>
+    <string name="i35">PRODUCTION YEAR</string>
+    <string name="i36">FUEL</string>
+    <string name="i37">gas</string>
+    <string name="i38">domestic\nuse</string>
+    <string name="i39">   OK</string>
+    <string name="i40">WHY activate the push notifications:\nyou will be notified for the alerts set by you\nyou will know when there are offers and promotions\nyou may receive discounts</string>
+    <string name="i41">taxi</string>
+    <string name="i42">goods distribution</string>
+    <string name="i43">REGISTRATION CERTIFICATE SERIAL</string>
+    <string name="i44">USE OF VEHICLE</string>
+    <string name="i45">Civil liability</string>
+    <string name="i46">Full\nprice</string>
+    <string name="i47">Insured amount (at least 10000 EUR)</string>
+    <string name="i48">Civil liability insured amount (EUR))</string>
+    <string name="i49">Replacement\nvalue</string>
+   	<string name="i50">Real\nvalue</string>
+   	<string name="i51">Market\nvalue</string>
+   	<string name="i52">Bank\nevaluation</string>
+    <string name="i53">Ask for the offer</string>
+    <string name="i54">NAME AND SURNAME</string>
+    <string name="i55">Vodafone\nclient price</string>
+    <string name="i56">SSN</string>
+    <string name="i57">EMAIL</string>
+    <string name="i58">CHOOSE OPERATOR</string>
+    <string name="i59">ID / PASSPORT SERIAL</string>
+    <string name="i60">COUNTY, CITY</string>
+    <string name="i61">COUNTY, CITY</string>
+    <string name="i62">ADDRESS</string>
+    <string name="i63">PHONE</string>
+    <string name="i64">CAEN</string>
+    <string name="i65">Tourism</string>
+    <string name="i66">Quit</string>
+    <string name="i67">Save</string>
+    <string name="i68">VEHICLE IN LEASING?</string>
+    <string name="i69">LEASING COMPANY NAME</string>
+    <string name="i70">Choose the property</string>
+    <string name="i71">Business</string>
+    <string name="i72">Search</string>
+    <string name="i73">The fees are directly obtained from the insurance companies.</string>
+    <string name="i74">The travel insurance payment is done only with the card.</string>
+    <string name="i75">You will receive the policy by email within a few minutes after payment is completed.</string>
+    <string name="i76">The fees are directly obtained from the insurance companies.</string>
+    <string name="i77">INSURED PROPERTY</string>
+    <string name="i78">The payment for the home insurance is done online with the card.</string>
+    <string name="i79">diesel</string>
+    <string name="i80">You will receive the policy by email within a few minutes after payment is completed.</string>
+    <string name="i81">Professional driver</string>
+    <string name="i82">Studies</string>
+    <string name="i83">Number of days</string>
+    <string name="i84">lpg</string>
+    <string name="i85">Destination country</string>
+    <string name="i86">PROPERTY OWNER</string>
+    <string name="i87">5</string>
+    <string name="i88">Evaluation module</string>
+    <string name="i89">The fees are directly obtained from the insurance companies.</string>
+    <string name="i90">Choose the payment method</string>
+    <string name="i91">The MTPL insurance policy is delivered for FREE by quick delivery</string>
+    <string name="i92">YES</string>
+    <string name="i93">HOUSE TYPE</string>
+    <string name="i94">Apartment\n </string>
+    <string name="i95">Business register number</string>
+    <string name="i96">Order</string>
+    <string name="i97">House - shared</string>
+    <string name="i98">NO</string>
+    <string name="i99">FLOOR</string>
+    <string name="i100">NUMBER OF ROOMS</string>
+    <string name="i101">VEHICLE BRAND</string>
+    <string name="i102">CHASSIS NUMBER</string>
+    <string name="i103">CM3</string>
+    <string name="i104">VEHICLE MODEL</string>
+    <string name="i105">POWER (KW)</string>
+    <string name="i106">VEHICLE CATEGORY</string>
+    <string name="i107">CONSTRUCTION YEAR (>=1900)</string>
+    <string name="i108">Automobile</string>
+    <string name="i109">Motorbike</string>
+    <string name="i110">CERTIFICATE COUNTY, CITY</string>
+    <string name="i111">REGISTRATION PLATE NO.</string>
+    <string name="i112">Off-road vehicle</string>
+    <string name="i113">BUILDING HEIGHT (NO. OF FLOORS)</string>
+    <string name="i114">OTHER INFORMATION</string>
+    <string name="i115">SURFACE (SM)</string>
+    <string name="i116">2</string>
+    <string name="i117">NUMBER OF TENANTS</string>
+    <string name="i118">RESISTANCE STRUCTURE</string>
+    <string name="i119">House - individual</string>
+    <string name="i120">DELIVERY (COUNTY, CITY)</string>
+    <string name="i121">DELIVERY (STREET, NUMBER, BLOCK)</string>
+    <string name="i122">NAME</string>
+    <string name="i123">Warning!</string>
+    <string name="i124">Operator</string>
+    <string name="i125">Please fill in your phone number and the e-mail address in My Data - My Profile. We need this information in order to send you the offer.</string>
+    <string name="i126">Insured amount</string>
+    <string name="i127">Insurance start date</string>
+    <string name="i128">Calculate</string>
+    <string name="i129">Vodafone</string>
+    <string name="i130">Orange</string>
+    <string name="i131">TO TELL US SOMETHING</string>
+    <string name="i132">Cosmote</string>
+    <string name="i133">Text mai mic</string>
+    <string name="i134">text</string>
+    <string name="i135">DUE INSTALMENT</string>
+    <string name="i136">select the last validity date</string>
+    <string name="i137">Start</string>
+    <string name="i138">DUE INSTALMENT</string>
+    <string name="i139">11.11.2011</string>
+    <string name="i140">Franchise</string>
+    <string name="i141">no</string>
+    <string name="i142">Sport cover</string>
+    <string name="i143">Electronic dev.</string>
+    <string name="i144">Baggage</string>
+    <string name="i145">Confirm deletion</string>
+    <string name="i146">Press YES to delete this registration, if you don\'t want to delete the registration press NO.</string>
+    <string name="i147">Choose the vehicle</string>
+    <string name="i148">Choose the owner</string>
+    <string name="i149">VEHICLE OWNER (SEE CERTIFICATE)</string>
+    <string name="i150">Vehicle km number</string>
+    <string name="i151">Vehicle color</string>
+    <string name="i152">If the car has Motor Hull please select the company</string>
+    <string name="i153">Allianz</string>
+    <string name="i154">Omniasig</string>
+    <string name="i155">Generali</string>
+    <string name="i156">Information on DISCOUNTS</string>
+    <string name="i157">choose from the list</string>
+    <string name="i158">INSURED VEHICLE</string>
+    <string name="i159">With tranzit</string>
+    <string name="i160"></string>
+    <string name="i161">Choose payment method</string>
+    <string name="i162">Travel objective</string>
+    <string name="i163">\n In full</string>
+    <string name="i164">2 Instalments</string>
+    <string name="i165">4 Instalments</string>
+    <string name="i166"><b>"Add vehicle"</b></string>
+    <string name="i167"><b>"Add property"</b></string>
+    <string name="i168"><b>"Add insured person"</b></string>
+    <string name="i169">Full\nconditions</string>
+    <string name="i170">Cover\nsummary</string>
+    <string name="i171">There aren\'t persons saved in the list.\nIn order to add a new person, press the button above\n\"Add insured person\"</string>
+    <string name="i172">There aren\'t properties saved in the list.\nIn order to add a new property, push the button above\n\"Add property\"</string>
+    <string name="i173">There aren\'t any cars saved in the list.\nTo add a new car, press the button above\n\"Add vehicle\"</string>
+    <string name="i174">You have no ordered insurance.\nThe insurance policies ordered through the application will automatically appear</string>
+    <string name="i175"><b>Titlu layout</b></string>
+    <string name="i176">We search\nfor the lowest fees\ndirectly from the\ninsurance companies</string>
+    <string name="i177">CASH,upon\ndelivery</string>
+    <string name="i178">Bank\ntransfer</string>
+    <string name="i179">ONLINE,\ncard</string>
+    <string name="i180">EMAIL CONTACT</string>
+    <string name="i181">PHONE CONTACT</string>
+    <string name="i182">\n\nThis information will be provided to an i-Asigurare representative. We try to get the best prices for your car.\n\nDue to high number of requests, it might take up to 3 days until we send you the fees, as all the requests are individually processed. \n\nTaking this into account, please ask for an offer only if your car needs a Motor Hull insurance in the next 30 days.\n\n</string>
+	<string name="i183">It was a test.\nQUIT</string>
+	<string name="i184">It \'s clear.\nI want Motor Hull</string>
+	<string name="i185">5.000\nEUR</string>
+	<string name="i186">10.000\nEUR</string>
+	<string name="i187">30.000\nEUR</string>
+	<string name="i188">50.000\nEUR</string>
+	<string name="i189">5.000 €</string>
+	<string name="i190">10.000 €</string>
+	<string name="i191">30.000 €</string>
+	<string name="i192">50.000 €</string>
+	<string name="i193">You\'ve got BO Bonus. The fees could be higher! Possible causes:</string>
+	<string name="i194">Choose travellers \nYou can choose several persons</string>
+	<string name="i195">Real\nvalue</string>
+	<string name="i196">6 months</string>
+	<string name="i197">12 months</string>
+	<string name="i198">Market\nvalue</string>
+	<string name="i199">Bank\nvalue</string>
+	<string name="i200">The returned results are provided by CEDAM database, and not by the i-Asigurare application!\n
+If the received message is incorrect it means that the insurance company where you concluded the policy didn\'t provide the correct information to CEDAM or you inserted the registration plate / chassis number wrongly\n
+If the policy is not found, it means that:</string>
+    <string name="i201"> either the insurance company didn\'t provide the data to CEDAM, or it provided incorrect data;</string>
+    <string name="i202">either CEDAM database is not updated (it may take up to 2-3 months since the policy is issued until its registration in CEDAM database)</string>
+    <string name="i203">or the vehicle doesn\'t have MTPL insurance</string>
+	<string name="i204">Replacement\nvalue</string>
+	<string name="i205">Minor\nchildren</string>
+	<string name="i206">Physical\ndisability</string>
+	<string name="i207">Alerts aren\'t set up.\nYou can save alerts for\ncars and properties in \n\"My data\".</string>
+	<string name="i209">The insurance policy check is done using CEDAM database at CSA: http://cedam.csa-isc.ro\n\nIt takes up to about one month for a newly issued policy to be registered in CEDAM database</string>
+	<string name="i210">General data</string>
+	<string name="i211">Married</string>
+	<string name="i212">Pensionary</string>
+	<string name="i213">Number of public servants in the family</string>
+	<string name="i214">Car driving licence since year</string>
+	<string name="i215">Attention: some insurance companies may require proving documents (for disability or public servants in the family)</string>
+	<string name="i216" >You\'ve completed the first steptowards the\ni-Asigurare experience.Be ready to discover\n how it is to have all your insurance policies\nright in your pocket</string>
+	<string name="i217">Before starting,\nplease select the mobile phone operator:</string>
+	<string name="i218">The validity of MTPL policy can be checked using the vehicle chassis number.\nMake sure it is correctly inserted!</string>
+	<string name="i219">Sorry! Fees couldn\'t be calculated because you don\'t have internet connection. Please make sure you have an active internet connection and calculate again.\nThank you!</string>
+	<string name="i220">You haven\'t received any notification so far. Make sure the Push Notifications function for i-Asigurare application is active.</string>
+	<string name="i221"> ● the car chassis number is incorrect;\n● the SSN / business register number is incorrect;\n● other SSN / business register number than that of the car owner\'s was inserted;\n● there is no history for the group car - owner, in which case please don\'t take into account this warning.</string>
+	<string name="i222">Romana</string>
+	<string name="i223">Magyar</string>
+	<string name="i224">English</string>
+	
+	<string name="i225">Data synchronization</string>
+	<string name="i226">Retrieving data?</string>
+	<string name="i227">If you have used the application on this phone before, we can help you retrieve the saved data. Do you want to synchronize?</string>
+	<string name="i228">My data</string>
+	<string name="i229">i-Asigurare app</string>
+	<string name="i230">Insure yourself smartly on your phone</string>
+	<string name="i231">MY PROFILE</string>
+	<string name="i232">Configure your profile</string>
+	<string name="i233">My account</string>
+	<string name="i234">This is your information</string>
+	<string name="i235">About me</string>
+	<string name="i236">Data may be incorrect</string>
+	<string name="i237">NAME AND SURNAME</string>
+	<string name="i238">Fill in the name and surname</string>
+	<string name="i239">SSN</string>
+	<string name="i240">Social security number</string>
+	<string name="i241">COUNTY, CITY</string>
+	<string name="i242">ADDRESS</string>
+	<string name="i243">Full address in the identity card</string>
+	<string name="i244">PHONE</string>
+	<string name="i245">Phone number where you can be reached</string>
+	<string name="i246">EMAIL</string>
+	<string name="i247">Email address for mails (completed orders, insurance policies, alerts)</string>
+	<string name="i248">CHOOSE OPERATOR</string>
+	<string name="i249">Please select the mobile phone operator</string>
+	<string name="i250">ID / PASSPORT SERIAL</string>
+	<string name="i251">Identity card (for EU) or passport serial (EU + other countries): requested for calculating the travel insurance fees</string>
+	<string name="i252">My company</string>
+	<string name="i253">NAME</string>
+	<string name="i254">Fill in the company name</string>
+	<string name="i255">Business register number</string>
+	<string name="i256">Business register number - based on which we will try to automatically obtain public information such as company name and address</string>
+	<string name="i257">ADDRESS</string>
+	<string name="i258">Official company headquarters</string>
+	<string name="i259">CAEN</string>
+	<string name="i260">Operator</string>
+	<string name="i261">MY CARS</string>
+	<string name="i262">cars</string>
+	<string name="i263">car</string>
+	<string name="i264">Car list</string>
+	<string name="i265">There aren\'t any cars saved in the list. To add a new car, press the button above \"Add vehicle\"</string>
+	<string name="i266">Add vehicle</string>
+	<string name="i267">New vehicle</string>
+	<string name="i268">Fill in the data below</string>
+	<string name="i269">Vehicle information</string>
+	<string name="i270">you can modifiy the data below</string>
+	<string name="i271">Vehicle alerts</string>
+	<string name="i272">Select the expiry dates below</string>
+	<string name="i273">Vehicle info</string>
+	<string name="i274">Alerts</string>
+	<string name="i275">VEHICLE BRAND</string>
+	<string name="i276">Vehicle brands</string>
+	<string name="i277">Search</string>
+	<string name="i278">VEHICLE MODEL</string>
+	<string name="i279">Insert the vehicle model. Ex. Logan, Golf, Astra</string>
+	<string name="i280">VEHICLE CATEGORY</string>
+	<string name="i281">Select the vehicle category</string>
+	<string name="i282">Automobile</string>
+	<string name="i283">Mixed automobile</string>
+	<string name="i284">Off-road vehicle</string>
+	<string name="i285">Motorbike</string>
+	<string name="i286">Moped</string>
+	<string name="i287">Buddy seat</string>
+	<string name="i288">Scooter</string>
+	<string name="i289">ATV</string>
+	<string name="i290">Ambulance</string>
+	<string name="i291">Motorhome</string>
+	<string name="i292">Mini bus</string>
+	<string name="i293">Autobus</string>
+	<string name="i294">Coach</string>
+	<string name="i295">Utility vehicle</string>
+	<string name="i296">Commercial vehicle</string>
+	<string name="i297">Truck</string>
+	<string name="i298">Wagon</string>
+	<string name="i299">Tractor</string>
+	<string name="i300">Tractor head</string>
+	<string name="i301">Trailer</string>
+	<string name="i302">Semi-trailer</string>
+	<string name="i303">CERTIFICATE COUNTY, CITY</string>
+	<string name="i304">Counties</string>
+	<string name="i305">Cities</string>
+	<string name="i306">REGISTRATION PLATE NO.</string>
+	<string name="i307">If the vehicle is to be registered, please fill in \" - \"</string>
+	<string name="i308">CHASSIS NUMBER</string>
+	<string name="i309">Fill in correctly the chassis number in order to obtain the actual MTPL fees. See registration certificate field E (new model) or field 3 (old model)</string>
+	<string name="i310">CM3</string>
+	<string name="i311">Check registration certificate field P.1 (new model) or field 17 (old model)</string>
+	<string name="i312">POWER (KW)</string>
+	<string name="i313">Check registration certificate field P.2 (new model) or field 17 (old model)</string>
+	<string name="i314">SEATS NUMBER</string>
+	<string name="i315">Check registration certificate field S.1 (new model) or field 13 (old model)</string>
+	<string name="i316">MAXIMUM MASS (KG)</string>
+	<string name="i317">Check registration certificate field F.1 (new model) or field 11 (old model)</string>
+	<string name="i318">PRODUCTION YEAR</string>
+	<string name="i319">Check registration certificate field B (new model) or field 15 (old model)</string>
+	<string name="i320">REGISTRATION CERTIFICATE SERIAL</string>
+	<string name="i321">Check registration certificate field X (new model) or field 4 (old model)</string>
+	<string name="i322">USE OF VEHICLE</string>
+	<string name="i323">Select the use of vehicle</string>
+	<string name="i324">domestic\nuse</string>
+	<string name="i325">goods distribution</string>
+	<string name="i326">transport of persons</string>
+	<string name="i327">international transport</string>
+	<string name="i328">security-protection</string>
+	<string name="i329">taxi</string>
+	<string name="i330">maxi-taxi</string>
+	<string name="i331">driving-school</string>
+	<string name="i332">rental</string>
+	<string name="i333">delivery</string>
+	<string name="i334">other-activities</string>
+	<string name="i335">FUEL</string>
+	<string name="i336">gas</string>
+	<string name="i337">diesel</string>
+	<string name="i338">lpg</string>
+	<string name="i339">electrical / hybrid</string>
+	<string name="i340">without</string>
+	<string name="i341">VEHICLE IN LEASING?</string>
+	<string name="i342">LEASING COMPANY NAME</string>
+	<string name="i343">YES</string>
+	<string name="i344">NO</string>
+	<string name="i345">How do I edit the alerts?</string>
+	<string name="i346">Info</string>
+	<string name="i347">In order to save alerts you must fill in the car information</string>
+	<string name="i348">MTPL</string>
+	<string name="i349">Technical vehicle inspection</string>
+	<string name="i350">VIGNETTE</string>
+	<string name="i351">MOTOR HULL</string>
+	<string name="i352">MOTOR HULL DUE INSTALMENT</string>
+	<string name="i353"></string>
+	<string name="i354">select the last validity date</string>
+	<string name="i355">Quit</string>
+	<string name="i356">Quit</string>
+	<string name="i357">Save</string>
+	<string name="i358">MY PROPERTIES</string>
+	<string name="i359">properties</string>
+	<string name="i360">property</string>
+	<string name="i361">Properties list</string>
+	<string name="i362">There aren\'t properties saved in the list. In order to add a new property, push the button above \"Add property\"</string>
+	<string name="i363">Add property</string>
+	<string name="i364">Property</string>
+	<string name="i365">New property</string>
+	<string name="i366">Fill in the data below</string>
+	<string name="i367">Property info</string>
+	<string name="i368">property information</string>
+	<string name="i369">you may modify the data below</string>
+	<string name="i370">Alerts</string>
+	<string name="i371">Property alerts</string>
+	<string name="i372">How do I edit the alerts?</string>
+	<string name="i373">In order to save alerts you must fill in the property information</string>
+	<string name="i374">ADDRESS</string>
+	<string name="i375">Full address: street, number, block, etc.</string>
+	<string name="i376">HOUSE TYPE</string>
+	<string name="i377">Apartment\n </string>
+	<string name="i378">House - shared</string>
+	<string name="i379">House - individual</string>
+	<string name="i380">RESISTANCE STRUCTURE</string>
+	<string name="i381">Select the resistance structure</string>
+	<string name="i382">reinforced concrete</string>
+	<string name="i383">concrete</string>
+	<string name="i384">aac</string>
+	<string name="i385">glazed brick</string>
+	<string name="i386">sun-dried brick</string>
+	<string name="i387">adobe</string>
+	<string name="i388">wood</string>
+	<string name="i389">wood work</string>
+	<string name="i390">BUILDING HEIGHT (NO. OF FLOORS)</string>
+	<string name="i391">Number of floors in the building / block</string>
+	<string name="i392">FLOOR</string>
+	<string name="i393">Property floor</string>
+	<string name="i394">CONSTRUCTION YEAR (>=1900)</string>
+	<string name="i395">Building construction year</string>
+	<string name="i396">NUMBER OF ROOMS</string>
+	<string name="i397">SURFACE (SM)</string>
+	<string name="i398">Effective surface of the property in square meter</string>
+	<string name="i399">NUMBER OF TENANTS</string>
+	<string name="i400">OTHER INFORMATION</string>
+	<string name="i401">Property description</string>
+	<string name="i402">With alarm</string>
+	<string name="i403">With window grids</string>
+	<string name="i404">With fire alarm</string>
+	<string name="i405">With guard</string>
+	<string name="i406">Located in an isolated area</string>
+	<string name="i407">Permanently inhabited</string>
+	<string name="i408">Goods theft clause</string>
+	<string name="i409">Water pipe clause</string>
+	<string name="i410">Includes land</string>
+	<string name="i411">PROPERTY</string>
+	<string name="i412">DUE PROPERTY INSTALMENT</string>
+	<string name="i413">select the expiry dates below</string>
+	<string name="i414">OTHER INSURED PERSONS</string>
+	<string name="i415">persons</string>
+	<string name="i416">person</string>
+	<string name="i417">List of persons</string>
+	<string name="i418">Add insured person</string>
+	<string name="i419">There aren\'t persons saved in the list. In order to add a new person, press the button above \"Add insured person\"</string>
+	<string name="i420">new person</string>
+	<string name="i421">Insert the data below</string>
+	<string name="i422">Natural person</string>
+	<string name="i423">Legal person</string>
+	<string name="i424">searching for the company data</string>
+	<string name="i425">Person information</string>
+	<string name="i426">you can modify the data below</string>
+	<string name="i427">MY ORDERS</string>
+	<string name="i428">insurance policies</string>
+	<string name="i429">insurance policy</string>
+	<string name="i430">Orders history</string>
+	<string name="i431">You can find here all the ordered insurance policies</string>
+	<string name="i432">You have no ordered insurance. The insurance policies ordered through the application will automatically appear</string>
+	<string name="i433">Insurance policies list</string>
+
+<!--  ce am adaugat separat de textul din excel -->
+	<string name="i434">downloading data...</string>
+	
+<!--  nu e tradus -->
+	<string name="i435">"The application will close.'re\nSure you want to exit the application?"</string>
+<!--  nu e tradus -->
+	<string name="i436">Buy insurance</string>
+	<string name="i437">My data</string>
+	<string name="i438">See alerts</string>
+	<string name="i439">Others</string>
+	<string name="i440">Vehicle</string>
+	<string name="i441">If the car is in leasing, enter the name of the leasing company.</string>
+	<string name="i442">Please fill in the empty fields and / or correct the wrong information</string>
+	<string name="i443">Person</string>
+	<string name="i444">loading...</string>
+	
+<!--  RCA -->
+	
+	<string name="i446">Calculator</string>
+	<string name="i447">Buy insurance</string>
+	<string name="i448">Insurance fees</string>
+	<string name="i449">Order completion</string>
+	<string name="i450">Sorry! Fees couldn\'t be calculated because you don\'t have internet connection. Please make sure you have an active internet connection and calculate again. Thank you!</string>
+	<string name="i451">Data confirmation</string>
+	<string name="i452">Press YES to confirm that the inserted data is correct and to place the order. If you don\'t want to continue, press NO.</string>
+	<string name="i453">For completion, a secure page will open in the browser, where you can pay for your insurance policy. The application will close.</string>
+	<string name="i454">Order completion</string>
+	<string name="i455">Your order has been registered. You will be contacted by an i-Asigurare representative at phone number </string>
+	
+<!--  Calatorie si locuinta-->
+	<string name="i456">Travel Insurance</string>
+	<string name="i457">Number of persons</string>
+	<string name="i458">Choose travellers</string>
+	<string name="i459">You can choose several persons</string>
+	<string name="i460">persoana zile tara</string>
+	<string name="i461">Travel objective: </string>
+	<string name="i462">Insurance duration: </string>
+	<string name="i463">Insurance products</string>
+	<string name="i464">Home insurance products</string>
+	<string name="i465">Property Summary</string>
+	<string name="i466">Summary</string>
+	<string name="i467">day</string>
+	<string name="i468">days</string>
+	<string name="i469">About</string>
+	<string name="i470">MTPL order completion</string>
+	<string name="i471">sending data...</string>
+	<string name="i472">. Thank you!</string>
+	<string name="i473">Please make sure you have an active internet connection and calculate again. Thank you!</string>
+	<string name="i474">insured amount : </string>
+	<string name="i475">In order to save alerts you must fill in the \"My data\".</string>
+	
+<!--  alerte -->
+	
+	
+	<string name="i476">insurance\nexpiry date</string>
+	<string name="i477">vignette\nexpiry date</string>
+	<string name="i478">due\ninstalment</string>
+	<string name="i479">technical inspection\nexpiry date</string>
+	
+	
+<!--  Altele -->
+
+	<string name="i480">PROMOTIONS</string>
+	<string name="i481">i-Asigurare offers</string>
+	<string name="i482">TO TELL US SOMETHING</string>
+	<string name="i483">Send us a message</string>
+	<string name="i484">MTPL VALIDITY</string>
+	<string name="i485">check your MTPL policy</string>
+	<string name="i487">read the rules</string>
+	<string name="i488">CONTACT</string>
+	<string name="i489">how to find us</string>
+	<string name="i490">Others</string>
+	<string name="i491">Other information</string>
+	<string name="i492">We always keep you informed</string>
+	<string name="i493">TERMS</string>
+	<string name="i494">CONDITIONS</string>
+	<string name="i495">SETTINGS</string>
+	<string name="i496">Send message</string>
+	<string name="i497">sending message...</string>
+	<string name="i498">checking the insurance policy...</string>
+	<string name="i499">Invalid policy</string>
+	<string name="i500">Valid policy</string>
+	<string name="i501">Policy was not found</string>
+	<string name="i502">Expired policy</string>
+
+<!--  Structura de rezistenta -->
+	
+	<string name="i503">Select the resistance structure</string>
+	<string name="i504">reinforced-concrete</string>
+	<string name="i505">concrete\n </string>
+	<string name="i506">aac\n </string>
+	<string name="i507">glazed brick</string>
+	<string name="i508">sun-dried brick</string>
+	<string name="i509">adobe\n </string>
+	<string name="i510">wood</string>
+	<string name="i511">wood work</string>
+	
+<!--  destinatie auto -->
+
+	<string name="i512">Select the use of vehicle</string>
+	<string name="i513">domestic-\nuse</string>
+	<string name="i514">goods-distribution</string>
+	<string name="i515">transport-of-persons</string>
+	<string name="i516">international-transport</string>
+	<string name="i517">security-protection</string>
+	<string name="i518">taxi\n </string>
+	<string name="i519">maxi-\ntaxi</string>
+	<string name="i520">driving-school</string>
+	<string name="i521">rental\n </string>
+	<string name="i522">delivery\n </string>
+	<string name="i523">other-\nactivities</string>	
+	<string name="i524">Use of vehicle</string>
+	
+<!--  combustibil -->
+
+	<string name="i525">gas\n </string>
+	<string name="i526">diesel\n </string>
+	<string name="i527">lpg\n </string>
+	<string name="i528">electrical /\n hybrid</string>
+	<string name="i529">without\n </string>
+	<string name="i530">Select the FUEL of vehicle</string>
+	<string name="i530">Choose Motor Hull company</string>
+	
+	
+<!--  categorie auto -->
+
+	<string name="i531">VEHICLE CATEGORY</string>
+	<string name="i532">Select the vehicle category</string>
+	<string name="i533">Automobile\n </string>
+	<string name="i534">Mixed\nautomobile</string>
+	<string name="i535">Off-road\nvehicle</string>
+	<string name="i536">Motorbike\n </string>
+	<string name="i537">Moped\n </string>
+	<string name="i538">Buddy seat\n </string>
+	<string name="i539">Scooter\n </string>
+	<string name="i540">ATV\n </string>
+	<string name="i541">Ambulance\n </string>
+	<string name="i542">Motorhome\n </string>
+	<string name="i543">Mini\nbus</string>
+	<string name="i544">Autobus\n </string>
+	<string name="i545">Coach\n </string>
+	<string name="i546">Utility\nvehicle</string>
+	<string name="i547">Commercial\nvehicle</string>
+	<string name="i548">Truck\n </string>
+	<string name="i549">Wagon\n </string>
+	<string name="i550">Tractor\n </string>
+	<string name="i551">Tractor\nhead</string>
+	<string name="i552">Trailer\n </string>
+	<string name="i553">Semi-\n trailer</string>
+	
+<!--  alte info loc -->
+
+	<string name="i554">Property description</string>
+	<string name="i555">With alarm</string>
+	<string name="i556">With window grids</string>
+	<string name="i557">With fire alarm</string>
+	<string name="i558">With guard</string>
+	<string name="i559">Located in an isolated area</string>
+	<string name="i560">Permanently inhabited</string>
+	<string name="i561">Goods theft clause</string>
+	<string name="i562">Water pipe clause</string>
+	<string name="i563">Includes land</string>
+	
+	<string name="i564">Your message was sent.</string>
+	<string name="i565">Select the FUEL of vehicle</string>
+	
+	<string name="i574">minor children</string>
+    <string name="i575">physical disability</string>
+    <string name="i576">married</string>
+    <string name="i577">pensionary</string>
+    <string name="i578">servants</string>
+    
+    <!-- 	Others  -->
+ 
+<string name="i471">sending data...</string>	
+	<string name="i475">In order to save alerts you must to fill in the information in \"My Data\".</string>
+	<string name="i497">sending message...</string>
+	<string name="i498">checking the policy...</string>
+	<string name="i564">Message was sent.</string>
+	
+<string name="i40">you will be notified for the alerts set by you you will know when there are offers and promotions you may receive discounts</string>
+	<string name="i435">The application will close. Are you sure you want to quit the application?</string>
+	<string name="i202">either CEDAM database is not updated (it may take up to 2-3 months since the policy is issued until its registration in CEDAM database)</string>
+	<string name="i203">or the vehicle doesn\'t have MTPL insurance</string>
+
+	<string name="i600">Expiration date has to be higher than current date!</string>
+	<string name="i601"> The application will close.\n Are you sure you want to quit the application?</string>
+	<string name="i602">Attention: Gothaer company may sometimes have problems with the automatic issuing. The insurance is valid, but you may not receive it by e-mail. In this case, we will send you the policy on Monday morning.</string>
+	<string name="i603">I choose other company</string>
+	<string name="i604">I agree</string>
+	<string name="i605">If you have set other browser than the default one, it is possible for PayU page not to open. You must use the default browser. If you need help, you can contact us by phone or e-mail.</string>
+	<string name="i606">"Insert phone number</string>
+	<string name="i607">The inserted phone number is not correct</string>
+	<string name="i608">Insert delivery address</string>
+	<string name="i609">Insert email address</string>
+	<string name="i610">The inserted email address is not correct </string>
+	<string name="i611">Insert delivery county and city</string>
+	<string name="i612">The MTPL ordering service is not available now. Please try again later</string>
+	<string name="i613">"Request was sent. You will be contacted to confirm the data shortly. Smart choice: I bought MTPL insurance policy directly on iPhone</string>
+	<string name="i614"> The MTPL ordering service is not available now. Please try again later</string>
+	<string name="i615">you will be notified for the alerts set by you you will know when there are offers and promotions you may receive discounts</string>
+	
+	
+<!-- 	VEHICLE  -->
+
+	<string name="i616">Choose vehicle brand.</string>
+	<string name="i617">Insert the vehicle model. Ex: Logan, Golf, Astra</string>
+	<string name="i618">Select county and city (mentioned in the certificate).</string>
+	<string name="i619">Insert registration plate number.</string>
+	<string name="i620">Insert chassis number. Check registration certificate field E (new model) or field 3 (old model).</string>
+	<string name="i621">Please correct the inserted chassis number. Check registration certificate field E (new model) or field 3 (old model).</string>
+	<string name="i622">Insert engine cubic capacity. Check registration certificate field P.1 (new model) or field 17 (old model).</string>
+	<string name="i623">Insert power (kw). Check registration certificate field P.2 (new model) or field 17 (old model).</string>
+	<string name="i624">Insert number of seats. Check registration certificate field S.1 (new model) or field 13 (old model).</string>
+	<string name="i625">Insert maximum mass. Check registration certificate field F.1 (new model) or field 11 (old model).</string>
+	<string name="i626">Insert production year. Check registration certificate field B (new model) or field 15 (old model).</string>
+	<string name="i627">Insert registration certificate serial. Check registration certificate field X (new model) or field 4 (old model).</string>
+	<string name="i628">Please correct the registration certificate serial. Check registration certificate field X (new model) or field 4 (old model).</string>
+
+<!-- 	NATURAL PERSON-->
+	
+
+<string name="i629">Insert full name (name + surname).</string>
+	<string name="i630">Insert social security number.</string>
+	<string name="i631">Please correct the social security number.</string>
+	<string name="i632">Select county and city.</string>
+	<string name="i633">Insert full address in the identity card.</string>
+
+<!-- 	LEGAL PERSON-->
+
+	<string name="i634">Fill in company name.</string>
+	<string name="i635">Insert business registration number.</string>
+	<string name="i636">Please correct the business registration number.</string>
+	<string name="i637">Select company county and city.</string>
+	<string name="i638">Insert official company headquarters.</string>
+
+<!-- 	PROPERTY -->
+
+	<string name="i639">Select house county and city.</string>
+	<string name="i640">Insert house full address.</string>
+	<string name="i641">Insert number of floors in the building.</string>
+	<string name="i642"> Insert property floor.</string>
+	<string name="i643"> Insert floor – it can’t by higher than the number of floors in the building.</string>
+	<string name="i644"> Insert building construction year.</string>
+	<string name="i645"> Building construction year has to be at least 1900. Otherwise, the house can’t be insured.</string>
+	<string name="i646"> The insured building construction year can’t be higher than the current year.</string>
+	<string name="i647">Insert effective surface of the property (in square meter).</string>
+	
+	<string name="i648"> If you have set other browser than the default one, it is possible for PayU page not to open. You must use the default browser. If you need help, you can contact us by phone or e-mail.</string>
+	<string name="i649"> Gothaer company may sometimes have problems with the automatic issuing. The insurance is valid, but you may not receive it by e-mail. In this case, we will send you the policy on Monday morning.</string>
+	<string name="i650">I choose\n other company</string>
+	<string name="i651">I \n agree </string>
+	
+    
+    
+    
+    <!--  HEADERE -->
+    
+    	<string name="i700">Insurance</string>
+	<string name="i701">policies</string>
+	<string name="i702">calculate fees and buy insurance</string>
+	<string name="i703">i-Asigurare</string>
+	<string name="i704">app</string>
+	<string name="i705">insure yourself smartly on your phone</string>
+	<string name="i706">Your</string>
+	<string name="i707">alerts</string>
+	<string name="i708">i-Asigurare remembers for you</string>
+	<string name="i709">Other</string>
+	<string name="i710">information</string>
+	<string name="i711">we always keep you informed</string>
+	
+	<!--  HEADERE  paagina altele-->
+    
+   	<string name="i712">Promotions</string>
+	<string name="i713">for you</string>
+	<string name="i714">keep yourself informed on our offers</string>
+	<string name="i715">Your</string>
+	<string name="i716">message</string>
+	<string name="i717">talk to i-Asigurare team</string>
+	<string name="i718">MTPL</string>
+	<string name="i719">VALIDITY</string>
+	<string name="i720">check your MTPL policy</string>
+	<string name="i721">TERMS</string>
+	<string name="i722">and</string>
+	<string name="i723">CONDITIONS</string>
+	<string name="i724">application terms of use</string>
+	<string name="i725">i-Asigurare</string>
+	<string name="i726">contact</string>
+	<string name="i727">contact data where you can find us</string>
+	
+	<!--  HEADERE  paagina datele mele-->
+	
+		<string name="i728">My</string>
+	<string name="i729">profile</string>
+	<string name="i730">this is your information</string>
+	<string name="i731">New</string>
+	<string name="i732">vehicle</string>
+	<string name="i733">fill in the data below</string>
+	<string name="i734">Vehicle</string>
+	<string name="i735">information</string>
+	<string name="i736">you can modifiy the data below</string>
+	<string name="i737">New</string>
+	<string name="i738">property</string>
+	<string name="i739">fill in the data below</string>
+	<string name="i740">Property</string>
+	<string name="i741">information</string>
+	<string name="i742">you may modify the data below</string>
+	<string name="i743">New</string>
+	<string name="i744">person</string>
+	<string name="i745">insert the data below</string>
+	<string name="i746">Person</string>
+	<string name="i747">information</string>
+	<string name="i748">you can modify the data below</string>
+	<string name="i749">Orders</string>
+	<string name="i750">history</string>
+	<string name="i751">you can find here all your policies</string>
+	<string name="i752">Property</string>
+	<string name="i753">alerts</string>
+	<string name="i754">select the expiry dates below</string>
+	<string name="i755">Vehicle</string>
+	<string name="i756">alerts</string>
+	<string name="i757">select the expiry dates below</string>
+	
+	<!--  HEADERE  paagina RCA-->
+	
+		<string name="i758">MTPL insurance</string>
+	<string name="i759">● Fees directly from the companies</string>
+	<string name="i760">● Free delivery by quick delivery</string>
+	<string name="i761">Insurance</string>
+	<string name="i762">fees</string>
+	<string name="i763">the lowest fees for your car</string>
+	<string name="i764">Summary</string>
+	<string name="i765">Please check carefully the inserted</string>
+	<string name="i766">data and make sure it is correct</string>
+	<string name="i767">Order completion</string>
+	<string name="i768">● Free delivery all around the country</string>
+	<string name="i769">● Gift: a car air freshener</string>
+	
+	<!--  HEADERE  paagina CASCO-->
+	
+		<string name="i770">Motor Hull Insurance</string>
+	<string name="i771">● Fees directly from the companies</string>
+	<string name="i772">● Individualized offers</string>
+	
+	<!--  HEADERE  paagina Calatorie-->
+	
+		<string name="i773">Travel Insurance</string>
+	<string name="i774">● Fees directly from the companies</string>
+	<string name="i775">● Electronic delivery in 5 minutes</string>
+	<string name="i776">Insurance</string>
+	<string name="i777">fees</string>
+	<string name="i778">the lowest fees for your trip</string>
+	<string name="i779">Summary</string>
+	<string name="i780">Please check carefully the inserted</string>
+	<string name="i781">data and make sure it is correct</string>
+	<string name="i782">Order completion</string>
+	<string name="i783">You will receive the insurance</string>
+	<string name="i784">policy to your email address</string>
+	
+		<!--  HEADERE  paagina Locuinta-->
+		
+			<string name="i785">Home Insurance</string>
+	<string name="i786">● Fees directly from the companies</string>
+	<string name="i787">● Electronic delivery in 5 minutes</string>
+	<string name="i788">Insurance</string>
+	<string name="i789">fees</string>
+	<string name="i790">the lowest fees for your home</string>
+	<string name="i791">Summary</string>
+	<string name="i792">Please check carefully the inserted </string>
+	<string name="i793">data and make sure it is correct</string>
+	<string name="i794">Order completion</string>
+	<string name="i795">You will receive the insurance policy</string>
+	<string name="i796">policy to your email address</string>
+		
+	
+	<!--  altele -->
+	
+	<string name="i797">Incomplete data</string>
+	<string name="i798">Thank you for your understanding!</string>
+	<string name="i799">Error !</string>
+	<string name="i800">Delete registration ?</string>
+	<string name="i801">the insurance policies ordered via the application are automatically added in My Data --> My Orders</string>
+	<string name="i802">Important</string>
+	<string name="i803">How do I edit the alerts?</string>
+	<string name="i804">You want to exit ?</string>
+	<string name="i805">Information was sent</string>
+	<string name="i806">:( sorry</string>
+	<string name="i807">Retrieving data?</string>
+	<string name="i808">Is data correct?</string>
+	<string name="i809">The order has been registered</string>
+	<string name="i810">Summary MTPL</string>
+
+    <string name="i811">Este indicat sa faci o comanda separata pentru persoanele care au peste 65 de ani sau cele mai mici de 2 ani, deoarece nu toate companiile ofera asigurari de calatorie pentru acestea</string>
+    <string name="i812">De acord</string>
+    <string name="i813">Continua</string>
+    <string name="i814">Polita este cesionata\nin favoarea bancii</string>
+    <string name="i815">MENTIUNE DE CESIUNE</string>
+    <string name="i816">introdu aici textul pentru cesiune...</string>
+    <string name="i817">CUI BANCA (CESIUNE)</string>
+    <string name="i818">termeni de utilizare a aplicatiei</string>
+    <string name="i819">Detalii eroare</string>
+    
+    <!--  Cont -->
+    
+    <string name="i900">Intra in cont</string>
+	<string name="i901">Inregistrare</string>
+	<string name="i902">Contul tau</string>
+	<string name="i903">ProAsigurari</string>
+	<string name="i904">introdu datele tale de acces</string>
+	<string name="i905">Adresa de email</string>
+	<string name="i906">Parola</string>
+	<string name="i907">Am uitat parola</string>
+	<string name="i908">Intra in cont</string>
+	<string name="i911">Cont nou</string>
+	<string name="i912">ProAsigurari</string>
+	<string name="i913">completeaza datele de mai jos</string>
+	<string name="i914">Adresa de email</string>
+	<string name="i915">Confirma adresa de email</string>
+	<string name="i916">Parola</string>
+	<string name="i917">Confirma parola</string>
+	<string name="i918">CREEAZA CONT</string>
+	<string name="i919">IESIRE CONT</string>
+	
+</resources>

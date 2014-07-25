@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+
+
+
+    <RelativeLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textListTopElem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text=""
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textListElem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textListTopElem"
+            android:layout_below="@+id/textListTopElem"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:text=""
+            android:textColor="@color/MenuLightGrey"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/img_companie"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@color/white" />
+
+        <TextView
+            android:id="@+id/data_inceput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iddata"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textListTopElem"
+            android:text="23.01.2013"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tip_asig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textListTopElem"
+            android:layout_toLeftOf="@+id/iddata"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/img_companie"
+            android:text="RCA HD33ASP"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iddata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tip_asig"
+            android:layout_alignBottom="@+id/tip_asig"
+            android:layout_alignParentRight="true"
+            android:paddingRight="3dp"
+            android:text="Data Inceput"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pret_asig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textListElem"
+            android:layout_alignLeft="@+id/tip_asig"
+            android:layout_alignRight="@+id/tip_asig"
+            android:text="1000.00 RON"
+            android:gravity="center"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C9C9C9" />
+
+</LinearLayout>

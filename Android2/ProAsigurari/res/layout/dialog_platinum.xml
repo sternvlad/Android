@@ -1,0 +1,82 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/popup_generic"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_img" />
+    
+    <TextView
+        android:id="@+id/text_titlu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i123"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+    </LinearLayout>
+
+    
+    <TextView
+        android:id="@+id/text_error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:textSize="15sp"
+        android:paddingRight="30dp"
+        android:text="@string/i649"
+        android:textColor="#000000" />
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_nu"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/button_renunta"
+                android:text="@string/i650" />
+
+            <Button
+                android:id="@+id/button_da"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:paddingLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/button_salveaza"
+                android:text="@string/i651" />
+
+        </LinearLayout>
+
+
+</LinearLayout>

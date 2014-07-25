@@ -1,0 +1,293 @@
+package com.stern.Asigurare;
+
+import java.io.StringReader;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.UUID;
+
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.xml.sax.InputSource;
+import org.xml.sax.XMLReader;
+
+import android.app.ActivityGroup;
+import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.content.ActivityNotFoundException;
+import android.content.Context;
+import android.content.Intent;
+import android.database.Cursor;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.net.Uri;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
+import android.widget.TextView;
+public class DateleMele extends ActivityGroup {
+
+	
+	int[] images = {R.drawable.setari_profilul_meu, R.drawable.setari_masinile_mele,
+			R.drawable.setari_locuintele_mele, R.drawable.setari_alte_persoane,
+			R.drawable.setari_asigurarile_mele };
+	Button menu2;
+	ListView listView;
+	ProgressDialog dlg;
+	String[] labels = new String [5];  
+	String[] labelsTop= new String [5];   
+	DatabaseConnector dbConnector;
+	ArrayList<SumareMainPage> listLayout = new ArrayList<SumareMainPage>();
+	AppSettings appSett;
+
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		loadValues();
+    	Window window = getWindow(); 
+    	window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.datele_mele);
+		listView = (ListView) findViewById(android.R.id.list);
+		Typeface th = Typeface.createFromAsset(getAssets(), "NanumPenScript-Regular.ttf");
+		
+		((TextView) findViewById(R.id.text_header1)).setTypeface(Typeface.create(th,Typeface.BOLD));
+		((TextView) findViewById(R.id.text_header2)).setTypeface(Typeface.create(th,Typeface.BOLD));
+		((TextView) findViewById(R.id.text_header3)).setTypeface(Typeface.create(th,Typeface.BOLD));
+		appSett = AppSettings.get(this);
+		labels[0] = getString(R.string.i232);
+		labels[1] = "0 " + getString(R.string.i262);
+		labels[2] = "0 " + getString(R.string.i359);
+		labels[3] = "0 " + getString(R.string.i415);
+		labels[4] = "0 " + getString(R.string.i428);
+		
+		labelsTop [0] = getString(R.string.i231);
+		labelsTop [1] = getString(R.string.i261);
+		labelsTop [2] = getString(R.string.i358);
+		labelsTop [3] = getString(R.string.i414);
+		labelsTop [4] = getString(R.string.i427);
+		
+
+		MainController.tvTitlu.setText(getParent().getResources().getString(R.string.i228));
+		appSett.updateTitluGroup1(getParent().getResources().getString(R.string.i228));
+		
+		setLayoutIds();
+		listView.setAdapter(new ImageAndTextAdapter(DateleMele.this,
+				R.layout.meniu_lista_element, null, null, null));
+		listView.setOnItemClickListener(new OnItemClickListener() {
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+				if (position == 0) {
+					Intent contulMeu = new Intent(getParent(), ContulMeu.class);
+					TabGroupActivity parentActivity = (TabGroupActivity)getParent();
+					parentActivity.startChildActivity("ContulMeu", contulMeu);
+				}
+				if (position == 1){
+					Intent masinileMele = new Intent(getParent(), MasinileMele.class);
+					TabGroupActivity parentActivity = (TabGroupActivity)getParent();
+					parentActivity.startChildActivity("MasinileMele", masinileMele);
+				}
+				if (position==2){
+					Intent locuinteleMele = new Intent(getParent(), LocuinteleMele.class);
+					TabGroupActivity parentActivity = (TabGroupActivity)getParent();
+					parentActivity.startChildActivity("LocuinteleMele", locuinteleMele);
+				}
+				if (position==3){
+					Intent altePersoane = new Intent(getParent(), AltePersoane.class);
+					TabGroupActivity parentActivity = (TabGroupActivity)getParent();
+					parentActivity.startChildActivity("AltePersoane", altePersoane);
+				}
+				if (position==4){
+					Intent asigurarileMele = new Intent(getParent(), AsigurarileMele.class);
+					TabGroupActivity parentActivity = (TabGroupActivity)getParent();
+					parentActivity.startChildActivity("AsigurarileMele", asigurarileMele);
+				}
+			}
+		});
+	}
+       
+	private class ImageAndTextAdapter extends SimpleCursorAdapter {
+		private Context adContext;
+		Typeface tf = Typeface.createFromAsset(getAssets(), "ArialRoundedMT.ttf");
+		Typeface tfa = Typeface.createFromAsset(getAssets(), "Arial.ttf");
+
+		public int getCount() {
+			return labels.length;
+		}
+
+		public ImageAndTextAdapter(Context context, int layout, Cursor c,
+				String[] from, int[] to) {
+			super(context, layout, c, from, to);
+			this.adContext = context;
+		}
+		
+		public View getView(int pos, View inView, ViewGroup parent) {
+			View v = inView;
+			if (v == null) {
+				LayoutInflater inflater = (LayoutInflater) adContext
+						.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+				v = inflater.inflate(R.layout.meniu_lista_element, null);
+			}
+			if (pos==0 && !labels[0].equals(getString(R.string.i232)))
+			{
+				((TextView) v.findViewById(R.id.textList)).setTextColor(Color.RED);
+				((TextView) v.findViewById(R.id.textList)).setTypeface(Typeface.create(tf,Typeface.BOLD));
+			}
+			
+			if (pos==1 && !labels[1].equals("0 " + getString(R.string.i262)))
+			{
+				((TextView) v.findViewById(R.id.textList)).setTextColor(Color.BLACK);
+				((TextView) v.findViewById(R.id.textList)).setTypeface(Typeface.create(tf,Typeface.BOLD));
+//				if (!YTOUtils.isTablet(getParent()))
+//					((TextView) v.findViewById(R.id.textList)).setTextSize(18);
+			}
+			if (pos==2 && !labels[2].equals("0 " + getString(R.string.i359)))
+			{
+				((TextView) v.findViewById(R.id.textList)).setTextColor(Color.BLACK);
+				((TextView) v.findViewById(R.id.textList)).setTypeface(Typeface.create(tf,Typeface.BOLD));
+//				if (!YTOUtils.isTablet(getParent()))
+//					((TextView) v.findViewById(R.id.textList)).setTextSize(18);
+			}
+			if (pos==3 && !labels[3].equals("0 " + getString(R.string.i415)))
+			{
+				((TextView) v.findViewById(R.id.textList)).setTextColor(Color.BLACK);
+				((TextView) v.findViewById(R.id.textList)).setTypeface(Typeface.create(tf,Typeface.BOLD));
+//				if (!YTOUtils.isTablet(getParent()))
+//					((TextView) v.findViewById(R.id.textList)).setTextSize(18);
+			}
+			if (pos==4 && !labels[4].equals("0 " + getString(R.string.i428)))
+			{
+				((TextView) v.findViewById(R.id.textList)).setTextColor(Color.BLACK);
+				((TextView) v.findViewById(R.id.textList)).setTypeface(Typeface.create(tf,Typeface.BOLD));
+//				if (!YTOUtils.isTablet(getParent()))
+//					((TextView) v.findViewById(R.id.textList)).setTextSize(18);
+			}
+			((TextView) v.findViewById(R.id.textList)).setText(labels[pos]);
+			((TextView) v.findViewById(R.id.textListTop)).setText(listLayout.get(pos).title);
+			((TextView) v.findViewById(R.id.textListTop)).setTypeface(Typeface.create(tfa,Typeface.NORMAL));
+			((ImageView) v.findViewById(R.id.imgList)).setImageResource(listLayout.get(pos).indexId);
+			return v;
+		}
+	}
+
+	public void onResume()
+	{
+		super.onResume();
+
+		loadValues();
+		MainController.tvTitlu.setText(getString(R.string.i228));
+		listView.setAdapter(new ImageAndTextAdapter(DateleMele.this,
+				R.layout.meniu_lista_element, null, null, null));
+		
+		
+	}
+	
+	private void loadValues()
+	{
+		if (GetObiecte.persoane!=null && GetObiecte.persoane.size()!=0 )
+		 {
+			   if (GetObiecte.persoanaFizica.isDirty)
+			   {
+				   if(!GetObiecte.persoanaFizica.nume.equals(""))
+					   labels[0]=GetObiecte.persoanaFizica.nume;
+				   else if (GetObiecte.persoanaJuridica.isDirty)
+					   if(!GetObiecte.persoanaJuridica.nume.equals(""))
+						   labels[0]=GetObiecte.persoanaJuridica.nume;
+			   }
+			   else if (GetObiecte.persoanaJuridica.isDirty)
+				   if(!GetObiecte.persoanaJuridica.nume.equals(""))
+					   labels[0]=GetObiecte.persoanaJuridica.nume;
+		 }
+		else labels[0]=getString(R.string.i232);
+		if (GetObiecte.autovehicule!=null)
+			if (GetObiecte.autovehicule.size()==1)
+			labels[1]=GetObiecte.autovehicule.size()+" "+getString(R.string.i263);
+			else labels[1]=GetObiecte.autovehicule.size()+" "+getString(R.string.i262);
+		if (GetObiecte.locuinte!=null)
+			if (GetObiecte.locuinte.size()==1)
+			labels[2]=GetObiecte.locuinte.size()+" "+getString(R.string.i360);
+			else labels[2]=GetObiecte.locuinte.size()+" "+getString(R.string.i359);
+		if (GetObiecte.persoaneNu!=null)
+			if (GetObiecte.persoaneNu.size()==1)
+			labels[3]=GetObiecte.persoaneNu.size()+" "+getString(R.string.i416);
+			else labels[3]=GetObiecte.persoaneNu.size()+" "+getString(R.string.i415);
+		if (GetObiecte.asigurari!=null)
+			if (GetObiecte.asigurari.size()==1)
+			labels[4]=GetObiecte.asigurari.size()+" "+getString(R.string.i429);
+			else labels[4]=GetObiecte.asigurari.size()+" "+getString(R.string.i428);
+	}
+
+	private void setLayoutIds() 
+	{
+			for (int i = 0; i < images.length; i++) 
+			{
+				SumareMainPage item = new SumareMainPage(i, images[i], labelsTop[i], labels[i]);
+				listLayout.add(item);
+			}
+	}
+	
+	
+	
+	@Override
+	public void onBackPressed ()
+	{
+		exitDialog();
+	}
+	
+	public void exitDialog () {
+	     final Dialog dialog=new Dialog(getParent());
+	     dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+	     dialog.setContentView(R.layout.dialog);
+
+	     ((TextView) dialog.findViewById(R.id.text_titlu)).setText("INFO");
+	     ((TextView) dialog.findViewById(R.id.text_continut)).setText(getString(R.string.i435));
+	     Typeface th = Typeface.createFromAsset(getAssets(), "NanumPenScript-Regular.ttf");
+			
+	     TextView textHeader = (TextView) dialog.findViewById(R.id.text_vrei_sa_stergi);
+	     textHeader.setTextColor(getResources().getColor(R.color.rosu_ter));
+	     textHeader.setText(getString(R.string.i804));
+	     textHeader.setTypeface(Typeface.create(th,Typeface.BOLD));
+	     
+	     Button btn_nu=(Button)dialog.findViewById(R.id.button_nu);
+	     btn_nu.setOnClickListener(new OnClickListener() {
+	     @Override
+	     public void onClick(View v) {
+	        dialog.dismiss();
+	     }
+	     });
+
+	     
+	     Button btn_da=(Button)dialog.findViewById(R.id.button_da);
+	     btn_da.setOnClickListener(new OnClickListener() {
+		     @Override
+		     public void onClick(View v) {
+		    	 appSett.updateLanguageWasChanged("false");
+		    		finish();
+		    		Intent intent = new Intent(Intent.ACTION_MAIN);
+		    		intent.addCategory(Intent.CATEGORY_HOME);
+		    		intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		    		startActivity(intent);
+		    		android.os.Process.killProcess(android.os.Process.myPid());
+	            }	
+		     });
+	   dialog.show();
+	}
+
+}
+

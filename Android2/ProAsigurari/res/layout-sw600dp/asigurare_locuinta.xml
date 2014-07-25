@@ -1,0 +1,450 @@
+
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scrollview_asig_loc"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_above="@+id/main_bottom"
+     android:layout_below="@+id/main_top" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp" >
+
+               <View
+                   android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/albastru_locuinta" />
+
+             <RelativeLayout
+          android:id="@+id/asigurare"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/description"
+                android:src="@drawable/asig_locuinte" />
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/imageView1"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_header2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/i786"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/text_header3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="@string/i787"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="23sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_header1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lay1"
+                android:layout_alignLeft="@+id/lay1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="@string/i785"
+                android:textColor="@color/albastru_locuinta"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+            
+                           <View
+                               android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/albastru_locuinta" />
+            
+            
+            <RelativeLayout
+                android:id="@+id/alege_loc_lay"
+                android:orientation="horizontal"
+                android:layout_height="100dp"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:background="@drawable/alege_persoana_locuinta">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:contentDescription="@string/description"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="20dp"
+                    android:src="@drawable/icon_foto_casa" />
+
+
+
+                <TextView
+                    android:id="@+id/alege_locuinta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/textView1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toLeftOf="@+id/imageView1"
+                    android:text="@string/i70"
+                    android:textColor="@color/ColorTitlu"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/i77"
+                    android:textSize="15sp" />
+                
+            </RelativeLayout>
+            
+            <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#C9C9C9" />
+            
+             <RelativeLayout
+                android:id="@+id/alege_persoana_loc_lay"
+                android:orientation="horizontal"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:background="@drawable/alege_persoana_locuinta">
+
+                <ImageView
+                    android:id="@+id/imageView0"
+                    android:layout_width="100dp"
+                    android:contentDescription="@string/description"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="20dp"
+                    android:src="@drawable/icon_foto_person" />
+
+
+
+                <TextView
+                    android:id="@+id/alege_persoana_loc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/TextView01"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toLeftOf="@+id/imageView0"
+                    android:text="@string/i148"
+                    android:textColor="@color/ColorTitlu"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/i86"
+                    android:textSize="15sp" />
+                
+            </RelativeLayout>   
+            
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#C9C9C9" />
+            
+             <TextView
+            android:id="@+id/textModEvaluare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i88"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+             <RadioGroup
+                 android:id="@+id/radio_mod_eval"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="1dp"
+                 android:gravity="center"
+                 android:layout_gravity="left"
+                 android:orientation="horizontal"
+                 android:paddingBottom="5dp"
+                 android:paddingLeft="5dp"
+                 android:paddingTop="5dp" >
+
+                 <RadioButton
+                     android:id="@+id/radio_1"
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     android:background="@drawable/button_radio_locuinta"
+                     android:button="@color/transparent"
+                     android:gravity="center"
+                     android:checked="true"
+                     android:paddingBottom="3dp"
+                     android:text="@string/i50"
+                     android:textColor="@color/MenuDarkGrey"
+                     android:textSize="16sp" />
+
+                 <RadioButton
+                     android:id="@+id/radio_2"
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     android:background="@drawable/button_radio_locuinta"
+                     android:button="@color/transparent"
+                     android:gravity="center"
+                     android:paddingBottom="3dp"
+                     android:text="@string/i51"
+                     android:textColor="@color/MenuDarkGrey"
+                     android:textSize="16sp" />
+
+                 <RadioButton
+                     android:id="@+id/radio_3"
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     android:background="@drawable/button_radio_locuinta"
+                     android:button="@color/transparent"
+                     android:gravity="center"
+                     android:paddingBottom="3dp"
+                     android:text="@string/i199"
+                     android:textColor="@color/MenuDarkGrey"
+                     android:textSize="16sp" />
+
+                 <RadioButton
+                     android:id="@+id/radio_4"
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     android:background="@drawable/button_radio_locuinta"
+                     android:button="@color/transparent"
+                     android:gravity="center"
+                     android:paddingBottom="3dp"
+                     android:text="@string/i49"
+                     android:textColor="@color/MenuDarkGrey"
+                     android:textSize="16sp" />
+             </RadioGroup>
+             
+            	<View
+        	android:layout_width="match_parent"
+        	android:layout_height="1dp"
+        	android:layout_marginTop="2dp"
+        	android:background="#C9C9C9" />
+            	
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i47"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+
+
+        <EditText
+            android:id="@+id/edtSumaAsig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ColorTitlu"
+            android:layout_margin="1dp"
+            android:background="@drawable/edit_text"
+            android:gravity="left"
+            android:inputType="number|textCapWords"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:textSize="27sp" />
+
+            	
+          <TextView
+            android:id="@+id/textSuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i48"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+          
+          <EditText
+            android:id="@+id/edtSumaAsigRaspCiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@drawable/edit_text"
+            android:gravity="left"
+            android:inputType="number|textCapWords"
+            android:textStyle="bold"
+            android:textColor="@color/ColorTitlu"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textSize="27sp" />
+          
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp">
+
+        	<TextView
+        	    android:id="@+id/textView1"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_margin="1dp"
+        	    android:gravity="left"
+        	    android:paddingLeft="5dp"
+        	    android:layout_marginBottom="5dp"
+        	    android:text="@string/i814"
+        	    android:textColor="@color/MenuDarkGrey"
+        	    android:textSize="20sp" />
+
+         <Button
+             android:id="@+id/da_cesiune"
+             android:layout_width="120dp"
+             android:layout_marginLeft="150dp"
+             android:layout_height="45dp"
+             android:text="@string/i92"
+             android:layout_marginTop="5dp"
+             android:layout_marginBottom="5dp"
+             android:background="@drawable/da_nu_nu_da_locuinta" />
+         <Button
+             android:id="@+id/nu_cesiune"
+             android:layout_width="120dp"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="0dp"
+             android:layout_height="45dp"
+             android:textColor="@color/white"
+             android:layout_marginBottom="1dp"
+             android:text="@string/i98"
+             android:background="@drawable/da_nu_nu_nu_locuinta" />
+
+  </LinearLayout>
+  
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C9C9C9" />   
+                    
+        <TextView
+            android:id="@+id/data_inceput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/i127"
+            android:textColor="@color/MenuDarkGrey"
+            android:textSize="20sp" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+         <EditText
+                android:id="@+id/edtDataInceput"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@color/transparent"
+                android:gravity="left"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="@color/ColorTitlu"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/data_inceput_minus"
+             android:layout_width="90dp"
+             android:layout_marginLeft="120dp"
+             android:layout_height="45dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/minus" />
+         <Button
+             android:id="@+id/data_inceput_plus"
+             android:layout_width="90dp"
+             android:layout_marginLeft="0dp"
+             android:layout_height="45dp"
+             android:layout_marginBottom="1dp"
+             android:background="@drawable/plus" />
+
+         </TableRow>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#C9C9C9" />          
+
+            
+            
+            <Button
+		        android:id="@+id/calculeaza_loc"
+		        android:layout_width="300dp"
+		        android:layout_gravity="center"
+		        android:layout_height="90dp"
+		        android:background="@drawable/calculeaza_locuinta"
+		        android:text="@string/i128" 
+		        android:textStyle="bold"
+		        android:layout_marginTop="15dp"
+		        android:paddingLeft="80dp"
+		        android:textSize="26sp"/>
+
+
+        </LinearLayout>
+        
+        
+          </ScrollView>

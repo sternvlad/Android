@@ -1,0 +1,110 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/popup_generic_inalt"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_img" />
+    
+    <TextView
+        android:id="@+id/text_titlu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i123"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+    </LinearLayout>
+    
+    
+    <TextView
+        android:id="@+id/text_vrei_sa_stergi"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:text="@string/i802"
+        android:textStyle="bold"
+        android:textColor="@color/rosu_termeni"
+        android:textSize="20sp" />
+
+   <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    
+    <TextView
+        android:id="@+id/text_error"
+        android:layout_width="fill_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="0dp"
+        android:gravity="left"
+        android:paddingLeft="30dp"
+        android:textSize="13sp"
+        android:paddingRight="30dp"
+        android:text="@string/i182"
+        android:textColor="#000000" />
+    
+    </ScrollView>
+
+    <TextView
+                android:id="@+id/text_bottom_thanks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:text="@string/i798"
+                android:textColor="@color/MenuLightGrey"
+                android:textSize="17sp" />
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_nu"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/button_renunta"
+                android:text="@string/i183" />
+
+            <Button
+                android:id="@+id/button_da"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:paddingLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:background="@drawable/button_salveaza"
+                android:text="@string/i184" />
+
+        </LinearLayout>
+
+
+</LinearLayout>

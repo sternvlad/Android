@@ -1,0 +1,437 @@
+
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scrollview_casco"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_above="@+id/main_bottom"
+     android:layout_below="@+id/main_top" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical" >
+
+               <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/galben_casco" />
+            
+
+
+            <RelativeLayout
+          android:id="@+id/asigurare"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/description"
+                android:src="@drawable/asig_casco" />
+
+            <LinearLayout
+                android:id="@+id/lay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/imageView1"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_header2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="@string/i771"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/text_header3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="@string/i772"
+                    android:textColor="@color/MenuLightGrey"
+                    android:textSize="23sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_header1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lay1"
+                android:layout_alignLeft="@+id/lay1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="@string/i770"
+                android:textColor="@color/galben_casco"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        
+               <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/galben_casco" />
+
+            <RelativeLayout
+                android:id="@+id/alege_masina_casco_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@drawable/alege_masina_portocaliu"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/description"
+                    android:paddingRight="20dp"
+                    android:src="@drawable/icon_foto" />
+
+                <TextView
+                    android:id="@+id/alege_masina_casco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/textView1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toLeftOf="@+id/imageView1"
+                    android:text="@string/i147"
+                    android:textColor="@color/ColorTitlu"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/i158"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="2dp"
+                android:background="#C9C9C9" />
+
+            <RelativeLayout
+                android:id="@+id/alege_persoana_casco_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/alege_masina_portocaliu"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imageView0"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/description"
+                    android:paddingRight="20dp"
+                    android:src="@drawable/icon_foto_person" />
+
+                <TextView
+                    android:id="@+id/alege_persoana_casco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/TextView01"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toLeftOf="@+id/imageView0"
+                    android:text="@string/i148"
+                    android:textColor="@color/ColorTitlu"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/i149"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="2dp"
+                android:background="#C9C9C9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/i150"
+                android:textColor="@color/MenuDarkGrey"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edt_km_auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/edit_text"
+                android:gravity="left"
+                android:inputType="number|textCapWords"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/ColorTitlu"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textCuloare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/i151"
+                android:textColor="@color/MenuDarkGrey"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edt_culoare_auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@drawable/edit_text"
+                android:gravity="left"
+                android:inputType="textCapWords"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/ColorTitlu"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textReduceri"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="0.38"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/i156"
+                android:textColor="@color/MenuDarkGrey"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/layout_reduceri"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/edt_reduceri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="@color/transparent"
+                    android:gravity="left"
+                    android:hint="@string/i157"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/ColorTitlu"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_arrow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/description"
+                    android:src="@drawable/list_arrow" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/viewCasco"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C9C9C9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/i152"
+                android:textColor="@color/MenuDarkGrey"
+                android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioCASCO_casco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio_1_casco"
+                        android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                        android:background="@drawable/button_radio_casco"
+                        android:button="@color/transparent"
+                        android:gravity="center"
+                        android:text="@string/i153"
+                        android:textColor="@color/MenuDarkGrey"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_2_casco"
+                        android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                        android:background="@drawable/button_radio_casco"
+                        android:button="@color/transparent"
+                        android:gravity="center"
+                        android:text="@string/i154"
+                        android:textColor="@color/MenuDarkGrey"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_3_casco"
+                        android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                        android:background="@drawable/button_radio_casco"
+                        android:button="@color/transparent"
+                        android:gravity="center"
+                        android:text="@string/i155"
+                        android:textColor="@color/MenuDarkGrey"
+                        android:textSize="16sp" />
+
+
+                    <Button
+                        android:id="@+id/alteleCASCO_casco"
+                        android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/altele_button" />
+                </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#C9C9C9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/i161"
+                android:textColor="@color/MenuDarkGrey"
+                android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioRATA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio_integral"
+                        android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                        android:background="@drawable/button_radio_casco"
+                        android:button="@color/transparent"
+                        android:checked="true"
+                        android:paddingBottom="20dp"
+                        android:gravity="center"
+                        android:text="@string/i163"
+                        android:textColor="@color/MenuDarkGrey"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_2_rate"
+                        android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                        android:background="@drawable/button_radio_casco"
+                        android:button="@color/transparent"
+                        android:gravity="center"
+                        android:paddingBottom="20dp"
+                        android:text="@string/i164"
+                        android:textColor="@color/MenuDarkGrey"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_4_rate"
+                        android:layout_width="100dp"
+                    	android:layout_height="100dp"
+                        android:background="@drawable/button_radio_casco"
+                        android:button="@color/transparent"
+                        android:gravity="center"
+                        android:paddingBottom="20dp"
+                        android:text="@string/i165"
+                        android:textColor="@color/MenuDarkGrey"
+                        android:textSize="16sp" />
+
+                </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#C9C9C9" />
+
+            <Button
+                android:id="@+id/calculeaza_casco"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/calculeaza_casco"
+                android:paddingLeft="80dp"
+                android:text="@string/i53"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        
+          </ScrollView>

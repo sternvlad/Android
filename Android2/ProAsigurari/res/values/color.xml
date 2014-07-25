@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#FFFFFF</color>
+	<color name="MenuDarkGrey">#3D3D3D</color>
+	<color name="MenuLightGrey">#878787</color>
+	<color name="pressedButton">#7FAAC6AD</color>
+	<color name="albastruInchis">#2d4791</color>
+	<color name="button">#727271</color>
+	<color name="ColorTitlu">#464646</color>
+	<color name="transparent">#00000000</color>
+	<color name="orange">#f15a24</color>
+	<color name="GriOpac">#a2a2a2</color>
+	<color name="verde">#009245</color>
+	<color name="verde_promotii">#638e1c</color>
+	<color name="galben_mesaj">#dca309</color>
+	<color name="mov_valabilitate">#574d83</color>
+	<color name="rosu_termeni">#cf3030</color>
+	<color name="portocaliu_persoana">#f15a24</color>
+	<color name="albastru_locuinta">#0071bc</color>
+	<color name="galben_casco">#f7931e</color>
+	<color name="rosu_ter">#cf3030</color>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/data_alerta"
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+		android:paddingLeft="5dp"
+      	android:background="#EEEEEE"
+      	android:layout_marginBottom="3dp"
+      	android:textSize="13sp"
+      	android:textStyle="bold"
+      	android:text="12.04.2005"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content" >
+        
+        <ImageView
+           	android:id="@+id/icon_alerta"
+           	android:layout_width="wrap_content"
+           	android:layout_height="wrap_content"
+           	android:layout_marginLeft="5dp"
+           	android:src="@drawable/icon_alerta_casco" />
+
+        <TextView
+            android:id="@+id/tip_alerta"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/MenuLightGrey"
+            android:layout_marginLeft="10dp"
+            android:text="Locuinta" />
+        
+         <TextView
+            android:id="@+id/expirare"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/MenuLightGrey"
+            android:layout_marginLeft="25dp"
+            android:text="@string/description" /> 
+            
+         <TextView
+            android:id="@+id/detalii"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/ColorTitlu"
+            android:layout_marginLeft="18dp"
+            android:text="@string/description" /> 
+
+</LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:background="#C9C9C9" />
+
+</LinearLayout>
